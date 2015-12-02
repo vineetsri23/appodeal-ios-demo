@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062BDAD31B3BCCC50019C751 /* IPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A76A4A51AE8B1E1004A434D /* IPhone.storyboard */; };
+		062BDAD41B3BCCC50019C751 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A76A4AA1AE8B1E1004A434D /* LaunchScreen.xib */; };
+		11A8A8111B69960B00EE376F /* AppodealInitializationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A8A8101B69960B00EE376F /* AppodealInitializationViewController.m */; };
+		11A8A81D1B699A5E00EE376F /* AppodealBannersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A8A81C1B699A5E00EE376F /* AppodealBannersViewController.m */; };
+		11A8A81F1B69A4C300EE376F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A8A81E1B69A4C300EE376F /* Images.xcassets */; };
+		8584F7341BC265C400EA6ADB /* AppodealNewsFeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8584F7331BC265C400EA6ADB /* AppodealNewsFeedController.m */; };
+		8584F7371BC2668F00EA6ADB /* RSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8584F7361BC2668F00EA6ADB /* RSSModel.m */; };
+		8584F73A1BC2671100EA6ADB /* RSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8584F7391BC2671100EA6ADB /* RSSParser.m */; };
+		85A8F6671BC2864800713161 /* AppodealContentStreamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F6661BC2864800713161 /* AppodealContentStreamController.m */; };
+		85A8F66D1BC288F400713161 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F66C1BC288F400713161 /* iCarousel.m */; };
+		85A8F6701BC28B0E00713161 /* AppodealContentWallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F66F1BC28B0E00713161 /* AppodealContentWallController.m */; };
+		85A8F6761BC2A0C600713161 /* AppodealNativeAdsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F6751BC2A0C600713161 /* AppodealNativeAdsController.m */; };
+		85A8F67C1BC2A89C00713161 /* AppodealCustomNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F67B1BC2A89C00713161 /* AppodealCustomNativeAdViewController.m */; };
+		85A8F6811BC3B5E500713161 /* IPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A8F6801BC3B5E500713161 /* IPad.storyboard */; };
+		85A8F6841BC3B9A500713161 /* AppodealContentStreamIPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F6831BC3B9A500713161 /* AppodealContentStreamIPadController.m */; };
+		85A8F6871BC3D81500713161 /* AppodealContentWallIPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F6861BC3D81500713161 /* AppodealContentWallIPadController.m */; };
+		9A76A49E1AE8B1E1004A434D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76A49D1AE8B1E1004A434D /* main.m */; };
+		9A76A4A11AE8B1E1004A434D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76A4A01AE8B1E1004A434D /* AppDelegate.m */; };
+		9C756A921BFB578900176E6B /* AppodealNativeBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C756A911BFB578900176E6B /* AppodealNativeBannerViewController.m */; };
+		C41F8A6F83D641FABCF0EE2C /* libPods-iosdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F79559E98E0F1EF60490B43 /* libPods-iosdemo.a */; };
+		CE808C8E1B8600BE007BD629 /* AppodealAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE808C8D1B8600BE007BD629 /* AppodealAdsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11A8A80F1B69960B00EE376F /* AppodealInitializationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealInitializationViewController.h; sourceTree = "<group>"; };
+		11A8A8101B69960B00EE376F /* AppodealInitializationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealInitializationViewController.m; sourceTree = "<group>"; };
+		11A8A81B1B699A5E00EE376F /* AppodealBannersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealBannersViewController.h; sourceTree = "<group>"; };
+		11A8A81C1B699A5E00EE376F /* AppodealBannersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealBannersViewController.m; sourceTree = "<group>"; };
+		11A8A81E1B69A4C300EE376F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D2C3CFCA8347E8BB06E8821 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F79559E98E0F1EF60490B43 /* libPods-iosdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iosdemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAFEFF135643A925B52E5E0 /* Pods-iosdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosdemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosdemo/Pods-iosdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8584F7321BC265C400EA6ADB /* AppodealNewsFeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNewsFeedController.h; sourceTree = "<group>"; };
+		8584F7331BC265C400EA6ADB /* AppodealNewsFeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNewsFeedController.m; sourceTree = "<group>"; };
+		8584F7351BC2668F00EA6ADB /* RSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSModel.h; sourceTree = "<group>"; };
+		8584F7361BC2668F00EA6ADB /* RSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSModel.m; sourceTree = "<group>"; };
+		8584F7381BC2671100EA6ADB /* RSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSParser.h; sourceTree = "<group>"; };
+		8584F7391BC2671100EA6ADB /* RSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSParser.m; sourceTree = "<group>"; };
+		85A8F6651BC2864800713161 /* AppodealContentStreamController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentStreamController.h; sourceTree = "<group>"; };
+		85A8F6661BC2864800713161 /* AppodealContentStreamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentStreamController.m; sourceTree = "<group>"; };
+		85A8F66B1BC288F400713161 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		85A8F66C1BC288F400713161 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		85A8F66E1BC28B0E00713161 /* AppodealContentWallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentWallController.h; sourceTree = "<group>"; };
+		85A8F66F1BC28B0E00713161 /* AppodealContentWallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentWallController.m; sourceTree = "<group>"; };
+		85A8F6741BC2A0C600713161 /* AppodealNativeAdsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNativeAdsController.h; sourceTree = "<group>"; };
+		85A8F6751BC2A0C600713161 /* AppodealNativeAdsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNativeAdsController.m; sourceTree = "<group>"; };
+		85A8F67A1BC2A89C00713161 /* AppodealCustomNativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealCustomNativeAdViewController.h; sourceTree = "<group>"; };
+		85A8F67B1BC2A89C00713161 /* AppodealCustomNativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealCustomNativeAdViewController.m; sourceTree = "<group>"; };
+		85A8F6801BC3B5E500713161 /* IPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IPad.storyboard; sourceTree = "<group>"; };
+		85A8F6821BC3B9A500713161 /* AppodealContentStreamIPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentStreamIPadController.h; sourceTree = "<group>"; };
+		85A8F6831BC3B9A500713161 /* AppodealContentStreamIPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentStreamIPadController.m; sourceTree = "<group>"; };
+		85A8F6851BC3D81500713161 /* AppodealContentWallIPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentWallIPadController.h; sourceTree = "<group>"; };
+		85A8F6861BC3D81500713161 /* AppodealContentWallIPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentWallIPadController.m; sourceTree = "<group>"; };
+		9A76A4981AE8B1E1004A434D /* iosdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A76A49C1AE8B1E1004A434D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A76A49D1AE8B1E1004A434D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A76A49F1AE8B1E1004A434D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A76A4A01AE8B1E1004A434D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A76A4A61AE8B1E1004A434D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/IPhone.storyboard; sourceTree = "<group>"; };
+		9A76A4AB1AE8B1E1004A434D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A76A4B61AE8B1E1004A434D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A76A4B71AE8B1E1004A434D /* iosdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosdemoTests.m; sourceTree = "<group>"; };
+		9C756A901BFB578900176E6B /* AppodealNativeBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNativeBannerViewController.h; sourceTree = "<group>"; };
+		9C756A911BFB578900176E6B /* AppodealNativeBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNativeBannerViewController.m; sourceTree = "<group>"; };
+		A2C086A9F1881DBC6AB79FE1 /* Pods-iosdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosdemo/Pods-iosdemo.release.xcconfig"; sourceTree = "<group>"; };
+		CE808C8C1B8600BE007BD629 /* AppodealAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealAdsViewController.h; sourceTree = "<group>"; };
+		CE808C8D1B8600BE007BD629 /* AppodealAdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealAdsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A76A4951AE8B1E1004A434D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41F8A6F83D641FABCF0EE2C /* libPods-iosdemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8584F7301BC2657100EA6ADB /* DemoNativeAdsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				85A8F6741BC2A0C600713161 /* AppodealNativeAdsController.h */,
+				85A8F6751BC2A0C600713161 /* AppodealNativeAdsController.m */,
+				8584F7321BC265C400EA6ADB /* AppodealNewsFeedController.h */,
+				8584F7331BC265C400EA6ADB /* AppodealNewsFeedController.m */,
+				85A8F6651BC2864800713161 /* AppodealContentStreamController.h */,
+				85A8F6661BC2864800713161 /* AppodealContentStreamController.m */,
+				85A8F6821BC3B9A500713161 /* AppodealContentStreamIPadController.h */,
+				85A8F6831BC3B9A500713161 /* AppodealContentStreamIPadController.m */,
+				85A8F66E1BC28B0E00713161 /* AppodealContentWallController.h */,
+				85A8F66F1BC28B0E00713161 /* AppodealContentWallController.m */,
+				85A8F6851BC3D81500713161 /* AppodealContentWallIPadController.h */,
+				85A8F6861BC3D81500713161 /* AppodealContentWallIPadController.m */,
+				85A8F67A1BC2A89C00713161 /* AppodealCustomNativeAdViewController.h */,
+				85A8F67B1BC2A89C00713161 /* AppodealCustomNativeAdViewController.m */,
+				9C756A901BFB578900176E6B /* AppodealNativeBannerViewController.h */,
+				9C756A911BFB578900176E6B /* AppodealNativeBannerViewController.m */,
+			);
+			name = DemoNativeAdsControllers;
+			sourceTree = "<group>";
+		};
+		8584F7311BC2659600EA6ADB /* Utiles */ = {
+			isa = PBXGroup;
+			children = (
+				8584F7351BC2668F00EA6ADB /* RSSModel.h */,
+				8584F7361BC2668F00EA6ADB /* RSSModel.m */,
+				8584F7381BC2671100EA6ADB /* RSSParser.h */,
+				8584F7391BC2671100EA6ADB /* RSSParser.m */,
+				85A8F66B1BC288F400713161 /* iCarousel.h */,
+				85A8F66C1BC288F400713161 /* iCarousel.m */,
+			);
+			name = Utiles;
+			sourceTree = "<group>";
+		};
+		9A76A48F1AE8B1E1004A434D = {
+			isa = PBXGroup;
+			children = (
+				9A76A4C41AE8E2BE004A434D /* Frameworks */,
+				9A76A49A1AE8B1E1004A434D /* iosdemo */,
+				9A76A4B41AE8B1E1004A434D /* iosdemoTests */,
+				9A76A4991AE8B1E1004A434D /* Products */,
+				AC4DC82002DFB7E2BB361195 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9A76A4991AE8B1E1004A434D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A76A4981AE8B1E1004A434D /* iosdemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A76A49A1AE8B1E1004A434D /* iosdemo */ = {
+			isa = PBXGroup;
+			children = (
+				8584F7301BC2657100EA6ADB /* DemoNativeAdsControllers */,
+				8584F7311BC2659600EA6ADB /* Utiles */,
+				9A76A49F1AE8B1E1004A434D /* AppDelegate.h */,
+				9A76A4A01AE8B1E1004A434D /* AppDelegate.m */,
+				11A8A80F1B69960B00EE376F /* AppodealInitializationViewController.h */,
+				11A8A8101B69960B00EE376F /* AppodealInitializationViewController.m */,
+				11A8A81B1B699A5E00EE376F /* AppodealBannersViewController.h */,
+				11A8A81C1B699A5E00EE376F /* AppodealBannersViewController.m */,
+				CE808C8C1B8600BE007BD629 /* AppodealAdsViewController.h */,
+				CE808C8D1B8600BE007BD629 /* AppodealAdsViewController.m */,
+				9A76A4A51AE8B1E1004A434D /* IPhone.storyboard */,
+				85A8F6801BC3B5E500713161 /* IPad.storyboard */,
+				9A76A4AA1AE8B1E1004A434D /* LaunchScreen.xib */,
+				11A8A81E1B69A4C300EE376F /* Images.xcassets */,
+				9A76A49B1AE8B1E1004A434D /* Supporting Files */,
+			);
+			path = iosdemo;
+			sourceTree = "<group>";
+		};
+		9A76A49B1AE8B1E1004A434D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A76A49C1AE8B1E1004A434D /* Info.plist */,
+				9A76A49D1AE8B1E1004A434D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A76A4B41AE8B1E1004A434D /* iosdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A76A4B71AE8B1E1004A434D /* iosdemoTests.m */,
+				9A76A4B51AE8B1E1004A434D /* Supporting Files */,
+			);
+			path = iosdemoTests;
+			sourceTree = "<group>";
+		};
+		9A76A4B51AE8B1E1004A434D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A76A4B61AE8B1E1004A434D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A76A4C41AE8E2BE004A434D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F79559E98E0F1EF60490B43 /* libPods-iosdemo.a */,
+				1D2C3CFCA8347E8BB06E8821 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC4DC82002DFB7E2BB361195 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFEFF135643A925B52E5E0 /* Pods-iosdemo.debug.xcconfig */,
+				A2C086A9F1881DBC6AB79FE1 /* Pods-iosdemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A76A4971AE8B1E1004A434D /* iosdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A76A4BB1AE8B1E1004A434D /* Build configuration list for PBXNativeTarget "iosdemo" */;
+			buildPhases = (
+				70F1750F281371B8CA22B842 /* Check Pods Manifest.lock */,
+				9A76A4941AE8B1E1004A434D /* Sources */,
+				9A76A4951AE8B1E1004A434D /* Frameworks */,
+				9A76A4961AE8B1E1004A434D /* Resources */,
+				068464261B3836DA005ABF40 /* ShellScript */,
+				06E70B901B3854FA00874FC8 /* ShellScript */,
+				B0524AD94900584A2DD348DE /* Copy Pods Resources */,
+				26F126A3F4F2654BBB73AFC2 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosdemo;
+			productName = iosdemo;
+			productReference = 9A76A4981AE8B1E1004A434D /* iosdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A76A4901AE8B1E1004A434D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Appodeal;
+				TargetAttributes = {
+					9A76A4971AE8B1E1004A434D = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 3UBVG2WUJQ;
+					};
+				};
+			};
+			buildConfigurationList = 9A76A4931AE8B1E1004A434D /* Build configuration list for PBXProject "iosdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A76A48F1AE8B1E1004A434D;
+			productRefGroup = 9A76A4991AE8B1E1004A434D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A76A4971AE8B1E1004A434D /* iosdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A76A4961AE8B1E1004A434D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A8F6811BC3B5E500713161 /* IPad.storyboard in Resources */,
+				062BDAD31B3BCCC50019C751 /* IPhone.storyboard in Resources */,
+				062BDAD41B3BCCC50019C751 /* LaunchScreen.xib in Resources */,
+				11A8A81F1B69A4C300EE376F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		068464261B3836DA005ABF40 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		06E70B901B3854FA00874FC8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		26F126A3F4F2654BBB73AFC2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosdemo/Pods-iosdemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F1750F281371B8CA22B842 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0524AD94900584A2DD348DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosdemo/Pods-iosdemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A76A4941AE8B1E1004A434D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8584F7371BC2668F00EA6ADB /* RSSModel.m in Sources */,
+				9C756A921BFB578900176E6B /* AppodealNativeBannerViewController.m in Sources */,
+				85A8F66D1BC288F400713161 /* iCarousel.m in Sources */,
+				85A8F6701BC28B0E00713161 /* AppodealContentWallController.m in Sources */,
+				85A8F67C1BC2A89C00713161 /* AppodealCustomNativeAdViewController.m in Sources */,
+				11A8A81D1B699A5E00EE376F /* AppodealBannersViewController.m in Sources */,
+				85A8F6841BC3B9A500713161 /* AppodealContentStreamIPadController.m in Sources */,
+				9A76A4A11AE8B1E1004A434D /* AppDelegate.m in Sources */,
+				85A8F6761BC2A0C600713161 /* AppodealNativeAdsController.m in Sources */,
+				8584F73A1BC2671100EA6ADB /* RSSParser.m in Sources */,
+				8584F7341BC265C400EA6ADB /* AppodealNewsFeedController.m in Sources */,
+				CE808C8E1B8600BE007BD629 /* AppodealAdsViewController.m in Sources */,
+				9A76A49E1AE8B1E1004A434D /* main.m in Sources */,
+				11A8A8111B69960B00EE376F /* AppodealInitializationViewController.m in Sources */,
+				85A8F6671BC2864800713161 /* AppodealContentStreamController.m in Sources */,
+				85A8F6871BC3D81500713161 /* AppodealContentWallIPadController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A76A4A51AE8B1E1004A434D /* IPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A76A4A61AE8B1E1004A434D /* Base */,
+			);
+			name = IPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9A76A4AA1AE8B1E1004A434D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A76A4AB1AE8B1E1004A434D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A76A4B91AE8B1E1004A434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A76A4BA1AE8B1E1004A434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A76A4BC1AE8B1E1004A434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FAFEFF135643A925B52E5E0 /* Pods-iosdemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Станислав Кочкин (P6MPBP8MX5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Станислав Кочкин (P6MPBP8MX5)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = iosdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appodeal.sandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		9A76A4BD1AE8B1E1004A434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2C086A9F1881DBC6AB79FE1 /* Pods-iosdemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Digital Box LLC (3UBVG2WUJQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Box LLC (3UBVG2WUJQ)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = iosdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appodeal.sandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A76A4931AE8B1E1004A434D /* Build configuration list for PBXProject "iosdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A76A4B91AE8B1E1004A434D /* Debug */,
+				9A76A4BA1AE8B1E1004A434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A76A4BB1AE8B1E1004A434D /* Build configuration list for PBXNativeTarget "iosdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A76A4BC1AE8B1E1004A434D /* Debug */,
+				9A76A4BD1AE8B1E1004A434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A76A4901AE8B1E1004A434D /* Project object */;
+}
