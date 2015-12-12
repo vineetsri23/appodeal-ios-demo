@@ -64,7 +64,7 @@ pod update
 
 The Appodeal SDK is distributed as static library.
 
-- **[Appodeal SDK.zip](https://s3-us-west-1.amazonaws.com/appodeal-ios/0.6.2/Appodeal.zip)**
+- **[Appodeal SDK.zip](https://s3-us-west-1.amazonaws.com/appodeal-ios/0.7.0/Appodeal.zip)**
 
 The current version of the SDK is 0.7.0    
 
