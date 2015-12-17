@@ -22,8 +22,8 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - AmazonAds (2.2.11)
-  - AppLovin (3.1.6)
-  - Appodeal (0.6.0):
+  - AppLovin (3.2.1)
+  - Appodeal (0.8.0):
     - AdColony (~> 2.5)
     - AFNetworking (~> 2.6)
     - AmazonAds (~> 2.2)
@@ -42,21 +42,21 @@ PODS:
     - InMobiSDK (~> 5.0)
     - Mantle (~> 2.0)
     - Masonry (~> 0.6)
+    - MillenialMediaSDK (~> 6.1)
     - mopub-ios-sdk (~> 4.0)
     - MyTarget (~> 4.0)
     - NexageSourceKitMRAID (~> 1.0.6)
     - NexageSourceKitVAST (~> 1.0.6)
     - PubNative (~> 1.3)
     - RevvForMobile (~> 3.1)
-    - SpotX-SDK (= 2.0.4-fix)
+    - SpotX-SDK (= 2.1.1-fix)
     - StartApp (~> 3.2)
     - SVProgressHUD (~> 1.1)
     - UnityAds (~> 1.5.3)
     - VungleAdvertiserSDK (= 3.1.2)
-    - YandexMobileAds (~> 1.9)
-    - YandexMobileMetrica (~> 2.0)
+    - YandexMobileAds (~> 2.0.0-beta1)
   - Avocarrot (3.4.2)
-  - ChartboostSDK (6.0.1)
+  - ChartboostSDK (6.1.0)
   - CocoaLumberjack (2.2.0):
     - CocoaLumberjack/Default (= 2.2.0)
     - CocoaLumberjack/Extensions (= 2.2.0)
@@ -65,7 +65,6 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.2.0):
     - CocoaLumberjack/Default
-  - ColorArt (0.1.1)
   - FacebookAdsSDK (4.6.0)
   - FBAudienceNetwork (4.7.0)
   - Flurry-iOS-SDK/FlurryAds (7.3.0):
@@ -77,25 +76,26 @@ PODS:
   - FMDB/standard (2.5):
     - FMDB/common
   - Godzippa (1.1.0)
-  - Google-Mobile-Ads-SDK (7.5.2)
+  - Google-Mobile-Ads-SDK (7.6.0)
   - Haneke (1.0.1)
   - HCSStarRatingView (1.4.3)
   - InMobiSDK (5.0.2)
-  - KSCrash/no-arc (0.0.6)
-  - KSCrash/Recording (0.0.6):
+  - KSCrash/no-arc (0.0.8)
+  - KSCrash/Recording (0.0.8):
     - KSCrash/no-arc
-  - KSCrash/Reporting/Filters/AppleFmt (0.0.6):
+  - KSCrash/Reporting/Filters/AppleFmt (0.0.8):
     - KSCrash/Recording
     - KSCrash/Reporting/Filters/Base
-  - KSCrash/Reporting/Filters/Base (0.0.6):
+  - KSCrash/Reporting/Filters/Base (0.0.8):
     - KSCrash/Recording
-  - Mantle (2.0.5):
-    - Mantle/extobjc (= 2.0.5)
-  - Mantle/extobjc (2.0.5)
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
   - Masonry (0.6.3)
-  - mopub-ios-sdk (4.1.0):
-    - mopub-ios-sdk/MoPubSDK (= 4.1.0)
-  - mopub-ios-sdk/MoPubSDK (4.1.0)
+  - MillenialMediaSDK (6.1.0)
+  - mopub-ios-sdk (4.3.0):
+    - mopub-ios-sdk/MoPubSDK (= 4.3.0)
+  - mopub-ios-sdk/MoPubSDK (4.3.0)
   - MWFeedParser (1.0.1):
     - MWFeedParser/FeedParser (= 1.0.1)
     - MWFeedParser/NSDate+InternetDateTime (= 1.0.1)
@@ -105,7 +105,7 @@ PODS:
     - MWFeedParser/NSString+HTML
   - MWFeedParser/NSDate+InternetDateTime (1.0.1)
   - MWFeedParser/NSString+HTML (1.0.1)
-  - MyTarget (4.2.4)
+  - MyTarget (4.2.8)
   - NexageSourceKitCommon (1.0.3)
   - NexageSourceKitMRAID (1.0.6):
     - NexageSourceKitCommon (~> 1.0.3)
@@ -114,15 +114,13 @@ PODS:
   - protobuf-c (1.0.1)
   - PubNative (1.4.0)
   - RevvForMobile (3.2.0)
-  - SpotX-SDK (2.0.4-fix)
+  - SpotX-SDK (2.1.1-fix)
   - StartApp (3.2.3)
   - SVProgressHUD (1.1.3)
-  - TOWebViewController (2.0.19)
-  - UnityAds (1.5.3)
+  - UnityAds (1.5.4)
   - VungleAdvertiserSDK (3.1.2)
-  - YandexMobileAds (1.9.2):
-    - ColorArt
-    - TOWebViewController
+  - YandexMobileAds (2.0.0-beta1):
+    - YandexMobileMetrica (<= 2.1.1, >= 2.0.0)
   - YandexMobileMetrica (2.1.1):
     - FMDB (~> 2.2)
     - KSCrash/Recording (~> 0.0.5)
@@ -137,40 +135,39 @@ SPEC CHECKSUMS:
   AdColony: ab47c3e22be7843e08f90989381a222884be4a62
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   AmazonAds: 5a508f9797ae74b09a54d8ab1576526b6db7b16f
-  AppLovin: acfc17821446df2056d7ad3e74f635825038aebc
-  Appodeal: 03558645d514d6c98301617566dab67fd7200cbf
+  AppLovin: 66a08f9cbbc2cf0f60d94052bafc33aa8c29a0df
+  Appodeal: 022abb12f1be016788b5d4e1d4f521a2029d754d
   Avocarrot: 38f54ae136a23ef1cd924813c1a0d9dc23c985b3
-  ChartboostSDK: 12736927218cacac02f9585ede00390ce33764d1
+  ChartboostSDK: 93c7ded3b581f9b321538f7d99148562399151c1
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
-  ColorArt: de0ffb63da4acdde8e234ded62e200236ca3e7e4
   FacebookAdsSDK: 4c3d335dd4514ae35991dc5bda2f60cbf0ef089e
   FBAudienceNetwork: 4d69cb1946c3ba83491e2470ce288e559b7215bf
   Flurry-iOS-SDK: 054befae0fa0244fb000985bfe757d70f87a9f60
   FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
   Godzippa: 21621e8ddc2f1521db473a72b48148c3f0e79d76
-  Google-Mobile-Ads-SDK: 24a8ddfc0bcfec281960c5d88f75327df0d86b00
+  Google-Mobile-Ads-SDK: 0290020329c61183c4685304264b73382bc49fb4
   Haneke: d60be8b96b228633b24708dd153169d6849d6f78
   HCSStarRatingView: bada6ae98258c3019531e0218030e2d5ad10765a
-  InMobiSDK: 9e0331d2f1795f1e8f182831bb34b1b84417efe2
-  KSCrash: c6ab634b7d7c63d6b9abc2ef00f995cbd9eead1e
-  Mantle: 1912395033f601de5adc8ee91e48f46e4c7051ad
+  InMobiSDK: 79f32a9a13625cd5dd5330d14ea38b08e309ccf3
+  KSCrash: a928da877b18f70c9ec3b50d4e8960271e2a10e5
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
   Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
-  mopub-ios-sdk: 5d4c1e7de62a33c83da9b94032a405a0859437cd
+  MillenialMediaSDK: 1dd57bcf6ab522679b4c6e5d25b23e015fcab4e7
+  mopub-ios-sdk: ef4aa305367b11c3bb465e9771e6622175049b03
   MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
-  MyTarget: cab058661f426e3078ecd4d1837b94e76d903082
+  MyTarget: dfaac93c9a339e24fe5dca4b32df44d158c73fdf
   NexageSourceKitCommon: 629eff3bc2135384e817ff8462a602269b100608
   NexageSourceKitMRAID: 143794bbd822a07d4506e222f0f72860c63fe3ec
   NexageSourceKitVAST: 43b2d1e5b045b1077bdf07a2467f06b1c491eac1
   protobuf-c: 87088f5a154d5293d9c75b44fc48b497056f4e76
   PubNative: 6176beb2be298908040a8551124dabe072b4891b
   RevvForMobile: d88a3c7097a8bd733975622967fe8c684839d9a2
-  SpotX-SDK: 553163b6954101dddadc670648b88ad14606dc68
+  SpotX-SDK: cbc72701e470dabb0ee12192d060010c596c8e31
   StartApp: c57f444ac839f55a8bce285422b73baaa5a1830c
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
-  TOWebViewController: accd62ec0acc8d5c2e1e195c6f7ff7654c3c840c
-  UnityAds: 35bc780d6765bdfdaa5f37db9ca244ba2b76ca39
+  UnityAds: cda709cad036bc34c6fed722c1d1256f503e4d70
   VungleAdvertiserSDK: 31f17fea4935d0879eedfd7cebbeecb411f8a879
-  YandexMobileAds: 204cd6aacf253d9272c89c68e60131a2c3ee3184
+  YandexMobileAds: 157d7b18c3f98a97cae0dc8fb2b37a2d6bb7169d
   YandexMobileMetrica: cfc5935da0dae6494c8e1c9adc78bc6904776725
 
 COCOAPODS: 0.39.0

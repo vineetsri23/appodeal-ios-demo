@@ -40,8 +40,8 @@
     AppodealNativeAdViewAttributes* attributes = [[AppodealNativeAdViewAttributes alloc] init];
     attributes.width = self.view.frame.size.width;
     attributes.heigth = 80;
-    attributes.iconHeigtht = 50;
-    attributes.iconWidth = 50;
+    //attributes.iconHeigtht = 50;
+    //attributes.iconWidth = 50;
     attributes.roundedIcon = YES;
     AppodealNativeAdView* adView = [AppodealNativeAdView nativeAdViewWithType: AppodealNativeAdTypeNewsFeed
                                             andNativeAd: ad

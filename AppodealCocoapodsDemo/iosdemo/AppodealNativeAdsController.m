@@ -65,7 +65,7 @@ NSString* const kSegueCustom = @"CustomSegue";
         self.adViewType = 10;
     }
     
-    self.nativeAdService = [[AppodealNativeAdService alloc] initWithCapacity:[self capacity]];
+    self.nativeAdService = [[AppodealNativeAdService alloc] init];
     self.nativeAdService.delegate = self;
     [self.nativeAdService loadAd];
     [SVProgressHUD show];
