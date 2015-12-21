@@ -25,7 +25,7 @@ NSString* const kSegueContentWall = @"ContentWallSegue";
 NSString* const kSegueBanner = @"BannerSegue";
 NSString* const kSegueCustom = @"CustomSegue";
 
-@interface AppodealNativeAdsController () <AppodealNativeAdServiceDelegate, UIPickerViewDataSource, UIPickerViewDelegate, RSSParserDelegate>
+@interface AppodealNativeAdsController () <AppodealNativeAdServiceDelegate, RSSParserDelegate> //UIPickerViewDataSource, UIPickerViewDelegate,
 
 @property AppodealNativeAdService* nativeAdService;
 @property (nonatomic, assign) AppodealNativeAdViewType adViewType;
@@ -33,7 +33,7 @@ NSString* const kSegueCustom = @"CustomSegue";
 @property (strong, nonatomic) NSMutableArray* adsArray;
 @property (strong, nonatomic) NSArray* dataArray;
 
-@property (weak, nonatomic)   IBOutlet UIPickerView *capacityPckerView;
+//@property (weak, nonatomic)   IBOutlet UIPickerView *capacityPckerView;
 
 @end
 
@@ -48,10 +48,9 @@ NSString* const kSegueCustom = @"CustomSegue";
         dispatch_async(dispatch_get_main_queue(), ^(void){
         });
     });
-   
-    
-    self.capacityPckerView.dataSource = self;
-    self.capacityPckerView.delegate = self;
+
+    //self.capacityPckerView.dataSource = self;
+    //self.capacityPckerView.delegate = self;
 }
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -65,15 +64,15 @@ NSString* const kSegueCustom = @"CustomSegue";
         self.adViewType = 10;
     }
     
-    self.nativeAdService = [[AppodealNativeAdService alloc] initWithCapacity:[self capacity]];
+    self.nativeAdService = [[AppodealNativeAdService alloc] init];
     self.nativeAdService.delegate = self;
     [self.nativeAdService loadAd];
     [SVProgressHUD show];
 }
 
--(NSInteger) capacity {
-    return [self.capacityPckerView selectedRowInComponent:0]+1;
-}
+//-(NSInteger) capacity {
+//    return [self.capacityPckerView selectedRowInComponent:0]+1;
+//}
 
 -(void) showAds{
     if (![self.adsArray count] && ![self.dataArray count]){
@@ -102,8 +101,7 @@ NSString* const kSegueCustom = @"CustomSegue";
 
 -(NSArray*) adsAndDataArray{
     NSMutableArray* array = [[ self.dataArray arrayByAddingObjectsFromArray:self.adsArray] mutableCopy];
-    for (NSInteger i = array.count-1; i > 0; i--)
-    {
+    for (NSInteger i = array.count-1; i > 0; i--) {
         [array exchangeObjectAtIndex:i withObjectAtIndex:arc4random_uniform(i+1)];
     }
     return array;
@@ -112,18 +110,24 @@ NSString* const kSegueCustom = @"CustomSegue";
 
 #pragma mark - AppodealNativeAdServiceDelegate
 
--(void) nativeAdServiceDidLoad{
-    self.adsArray = [NSMutableArray new];
-    AppodealNativeAd* nativeAd;
-    int capacity = [self capacity];
-    
-    for (int i = 0; i < capacity; i++){
-        nativeAd = [self.nativeAdService nextAd];
-        if (nativeAd){
-            [self.adsArray addObject:nativeAd];
-        }
-    }
+//-(void) nativeAdServiceDidLoad{
+//    self.adsArray = [NSMutableArray new];
+//    AppodealNativeAd* nativeAd;
+//    int capacity = [self capacity];
+//    
+//    for (int i = 0; i < capacity; i++){
+//        nativeAd = [self.nativeAdService nextAd];
+//        if (nativeAd){
+//            [self.adsArray addObject:nativeAd];
+//        }
+//    }
+//    [SVProgressHUD dismiss];
+//    [self showAds];
+//}
+
+- (void) nativeAdServiceDidLoad:(AppodealNativeAd *)nativeAd {
     [SVProgressHUD dismiss];
+    self.adsArray = [NSMutableArray arrayWithObject:nativeAd];
     [self showAds];
 }
 
@@ -132,22 +136,22 @@ NSString* const kSegueCustom = @"CustomSegue";
 }
 
 
-#pragma mark - UIPickerViewDataSource
-
-- (NSInteger) numberOfComponentsInPickerView:(UIPickerView *)pickerView{
-    return 1;
-}
-
-- (NSInteger) pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
-    return 5;
-}
-
-
-#pragma mark - UIPickerViewDelegate
-
-- (NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
-    return [NSString stringWithFormat:@"%d", row+1];
-}
+//#pragma mark - UIPickerViewDataSource
+//
+//- (NSInteger) numberOfComponentsInPickerView:(UIPickerView *)pickerView{
+//    return 1;
+//}
+//
+//- (NSInteger) pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
+//    return 5;
+//}
+//
+//
+//#pragma mark - UIPickerViewDelegate
+//
+//- (NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
+//    return [NSString stringWithFormat:@"%d", row+1];
+//}
 
 #pragma mark - RSSParserDelegate 
 

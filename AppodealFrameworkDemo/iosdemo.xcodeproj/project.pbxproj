@@ -34,21 +34,9 @@
 		06133BC81B83317B0074DE7A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06133BC71B83317B0074DE7A /* WebKit.framework */; };
 		061C3BB41BBA9B7E00AEC7EC /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061C3BB31BBA9B7E00AEC7EC /* Twitter.framework */; };
 		061C3BB61BBA9B8900AEC7EC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061C3BB51BBA9B8900AEC7EC /* CoreMotion.framework */; };
-		85A8F6AA1BC3DF8400713161 /* AppodealContentStreamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F68F1BC3DF8400713161 /* AppodealContentStreamController.m */; };
-		85A8F6AB1BC3DF8400713161 /* AppodealContentStreamIPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F6911BC3DF8400713161 /* AppodealContentStreamIPadController.m */; };
-		85A8F6AD1BC3DF8400713161 /* AppodealContentWallIPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F6951BC3DF8400713161 /* AppodealContentWallIPadController.m */; };
-		85A8F6AE1BC3DF8400713161 /* AppodealCustomNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F6971BC3DF8400713161 /* AppodealCustomNativeAdViewController.m */; };
-		85A8F6AF1BC3DF8400713161 /* AppodealInitializationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F6991BC3DF8400713161 /* AppodealInitializationViewController.m */; };
-		85A8F6B11BC3DF8400713161 /* AppodealNewsFeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F69D1BC3DF8400713161 /* AppodealNewsFeedController.m */; };
-		85A8F6B21BC3DF8400713161 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 85A8F69E1BC3DF8400713161 /* Base.lproj */; };
-		85A8F6B41BC3DF8400713161 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A8F6A11BC3DF8400713161 /* images.xcassets */; };
-		85A8F6B61BC3DF8400713161 /* RSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F6A41BC3DF8400713161 /* RSSModel.m */; };
 		9C410AD31BFDB1A900AE8C28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C410AB11BFDB1A900AE8C28 /* AppDelegate.m */; };
 		9C410AD41BFDB1A900AE8C28 /* AppodealAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C410AB31BFDB1A900AE8C28 /* AppodealAdsViewController.m */; };
 		9C410AD51BFDB1A900AE8C28 /* AppodealBannersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C410AB51BFDB1A900AE8C28 /* AppodealBannersViewController.m */; };
-		9C410AD81BFDB1A900AE8C28 /* AppodealContentWallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C410ABB1BFDB1A900AE8C28 /* AppodealContentWallController.m */; };
-		9C410ADC1BFDB1A900AE8C28 /* AppodealNativeAdsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C410AC31BFDB1A900AE8C28 /* AppodealNativeAdsController.m */; };
-		9C410ADD1BFDB1A900AE8C28 /* AppodealNativeBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C410AC51BFDB1A900AE8C28 /* AppodealNativeBannerViewController.m */; };
 		9C410AE01BFDB1A900AE8C28 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C410ACA1BFDB1A900AE8C28 /* iCarousel.m */; };
 		9C410AE11BFDB1A900AE8C28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C410ACB1BFDB1A900AE8C28 /* Images.xcassets */; };
 		9C410AE41BFDB1A900AE8C28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C410ACE1BFDB1A900AE8C28 /* main.m */; };
@@ -73,6 +61,56 @@
 		9C410B321BFDD8EC00AE8C28 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C410B251BFDD8EC00AE8C28 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		9C410B331BFDD8EC00AE8C28 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C410B271BFDD8EC00AE8C28 /* View+MASAdditions.m */; };
 		9C410B341BFDD8EC00AE8C28 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C410B2A1BFDD8EC00AE8C28 /* ViewController+MASAdditions.m */; };
+		9C55818B1C22A8D900618E8F /* IPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581871C22A8D900618E8F /* IPhone.storyboard */; };
+		9C55818C1C22A8D900618E8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581891C22A8D900618E8F /* LaunchScreen.xib */; };
+		9C5581B51C22AA7400618E8F /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C55818D1C22AA7400618E8F /* Appodeal.framework */; };
+		9C5581B61C22AA7400618E8F /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = 9C55818F1C22AA7400618E8F /* __vungle.db */; };
+		9C5581B71C22AA7400618E8F /* AdManagerAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581901C22AA7400618E8F /* AdManagerAssets.bundle */; };
+		9C5581B81C22AA7400618E8F /* appodeal_adbadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581911C22AA7400618E8F /* appodeal_adbadge.png */; };
+		9C5581B91C22AA7400618E8F /* appodeal_adbadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581921C22AA7400618E8F /* appodeal_adbadge@2x.png */; };
+		9C5581BA1C22AA7400618E8F /* appodeal_adbadge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581931C22AA7400618E8F /* appodeal_adbadge@3x.png */; };
+		9C5581BB1C22AA7400618E8F /* appodeal_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581941C22AA7400618E8F /* appodeal_close.png */; };
+		9C5581BC1C22AA7400618E8F /* appodeal_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581951C22AA7400618E8F /* appodeal_pattern.png */; };
+		9C5581BD1C22AA7400618E8F /* appodeal_pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581961C22AA7400618E8F /* appodeal_pattern@2x.png */; };
+		9C5581BE1C22AA7400618E8F /* MPAdBrowserController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581971C22AA7400618E8F /* MPAdBrowserController.nib */; };
+		9C5581BF1C22AA7400618E8F /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581981C22AA7400618E8F /* MPCloseBtn.png */; };
+		9C5581C01C22AA7400618E8F /* MPCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581991C22AA7400618E8F /* MPCloseBtn@2x.png */; };
+		9C5581C11C22AA7400618E8F /* MPCloseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C55819A1C22AA7400618E8F /* MPCloseBtn@3x.png */; };
+		9C5581C21C22AA7400618E8F /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C55819B1C22AA7400618E8F /* MPCloseButtonX.png */; };
+		9C5581C31C22AA7400618E8F /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C55819C1C22AA7400618E8F /* MPCloseButtonX@2x.png */; };
+		9C5581C41C22AA7400618E8F /* MPCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C55819D1C22AA7400618E8F /* MPCloseButtonX@3x.png */; };
+		9C5581C51C22AA7400618E8F /* MPDAAIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C55819E1C22AA7400618E8F /* MPDAAIcon.png */; };
+		9C5581C61C22AA7400618E8F /* MPDAAIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C55819F1C22AA7400618E8F /* MPDAAIcon@2x.png */; };
+		9C5581C71C22AA7400618E8F /* MPDAAIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581A01C22AA7400618E8F /* MPDAAIcon@3x.png */; };
+		9C5581C81C22AA7400618E8F /* MPMutedBtn@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581A11C22AA7400618E8F /* MPMutedBtn@1x.png */; };
+		9C5581C91C22AA7400618E8F /* MPMutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581A21C22AA7400618E8F /* MPMutedBtn@2x.png */; };
+		9C5581CA1C22AA7400618E8F /* MPMutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581A31C22AA7400618E8F /* MPMutedBtn@3x.png */; };
+		9C5581CB1C22AA7400618E8F /* MPPlayBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581A41C22AA7400618E8F /* MPPlayBtn.png */; };
+		9C5581CC1C22AA7400618E8F /* MPPlayBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581A51C22AA7400618E8F /* MPPlayBtn@2x.png */; };
+		9C5581CD1C22AA7400618E8F /* MPPlayBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581A61C22AA7400618E8F /* MPPlayBtn@3x.png */; };
+		9C5581CE1C22AA7400618E8F /* MPUnmutedBtn@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581A71C22AA7400618E8F /* MPUnmutedBtn@1x.png */; };
+		9C5581CF1C22AA7400618E8F /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581A81C22AA7400618E8F /* MPUnmutedBtn@2x.png */; };
+		9C5581D01C22AA7400618E8F /* MPUnmutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581A91C22AA7400618E8F /* MPUnmutedBtn@3x.png */; };
+		9C5581D11C22AA7400618E8F /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581AA1C22AA7400618E8F /* MRAID.bundle */; };
+		9C5581D21C22AA7400618E8F /* RFMAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581AB1C22AA7400618E8F /* RFMAdSDK.bundle */; };
+		9C5581D31C22AA7400618E8F /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581AC1C22AA7400618E8F /* StartApp.bundle */; };
+		9C5581D41C22AA7400618E8F /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581AD1C22AA7400618E8F /* SVProgressHUD.bundle */; };
+		9C5581D51C22AA7400618E8F /* TOWebViewControllerLocalizable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581AE1C22AA7400618E8F /* TOWebViewControllerLocalizable.bundle */; };
+		9C5581D61C22AA7400618E8F /* UnityAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581AF1C22AA7400618E8F /* UnityAds.bundle */; };
+		9C5581D71C22AA7400618E8F /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581B01C22AA7400618E8F /* vg_close.png */; };
+		9C5581D81C22AA7400618E8F /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581B11C22AA7400618E8F /* vg_cta.png */; };
+		9C5581D91C22AA7400618E8F /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581B21C22AA7400618E8F /* vg_mute_off.png */; };
+		9C5581DA1C22AA7400618E8F /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581B31C22AA7400618E8F /* vg_mute_on.png */; };
+		9C5581DB1C22AA7400618E8F /* vg_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5581B41C22AA7400618E8F /* vg_privacy.png */; };
+		9C5581EE1C22ABB200618E8F /* AppodealContentStreamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5581DF1C22ABB200618E8F /* AppodealContentStreamController.m */; };
+		9C5581EF1C22ABB200618E8F /* AppodealContentStreamIPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5581E11C22ABB200618E8F /* AppodealContentStreamIPadController.m */; };
+		9C5581F01C22ABB200618E8F /* AppodealContentWallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5581E31C22ABB200618E8F /* AppodealContentWallController.m */; };
+		9C5581F11C22ABB200618E8F /* AppodealContentWallIPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5581E51C22ABB200618E8F /* AppodealContentWallIPadController.m */; };
+		9C5581F21C22ABB200618E8F /* AppodealCustomNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5581E71C22ABB200618E8F /* AppodealCustomNativeAdViewController.m */; };
+		9C5581F31C22ABB200618E8F /* AppodealNativeAdsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5581E91C22ABB200618E8F /* AppodealNativeAdsController.m */; };
+		9C5581F41C22ABB200618E8F /* AppodealNativeBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5581EB1C22ABB200618E8F /* AppodealNativeBannerViewController.m */; };
+		9C5581F51C22ABB200618E8F /* AppodealNewsFeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5581ED1C22ABB200618E8F /* AppodealNewsFeedController.m */; };
+		9C5581F81C22ABFE00618E8F /* RSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5581F71C22ABFE00618E8F /* RSSModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,72 +141,19 @@
 		06133BC71B83317B0074DE7A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		061C3BB31BBA9B7E00AEC7EC /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		061C3BB51BBA9B8900AEC7EC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		85A8F6881BC3DF8400713161 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		85A8F6891BC3DF8400713161 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85A8F68A1BC3DF8400713161 /* AppodealAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealAdsViewController.h; sourceTree = "<group>"; };
-		85A8F68B1BC3DF8400713161 /* AppodealAdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealAdsViewController.m; sourceTree = "<group>"; };
-		85A8F68C1BC3DF8400713161 /* AppodealBannersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealBannersViewController.h; sourceTree = "<group>"; };
-		85A8F68D1BC3DF8400713161 /* AppodealBannersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealBannersViewController.m; sourceTree = "<group>"; };
-		85A8F68E1BC3DF8400713161 /* AppodealContentStreamController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentStreamController.h; sourceTree = "<group>"; };
-		85A8F68F1BC3DF8400713161 /* AppodealContentStreamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentStreamController.m; sourceTree = "<group>"; };
-		85A8F6901BC3DF8400713161 /* AppodealContentStreamIPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentStreamIPadController.h; sourceTree = "<group>"; };
-		85A8F6911BC3DF8400713161 /* AppodealContentStreamIPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentStreamIPadController.m; sourceTree = "<group>"; };
-		85A8F6921BC3DF8400713161 /* AppodealContentWallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentWallController.h; sourceTree = "<group>"; };
-		85A8F6931BC3DF8400713161 /* AppodealContentWallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentWallController.m; sourceTree = "<group>"; };
-		85A8F6941BC3DF8400713161 /* AppodealContentWallIPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentWallIPadController.h; sourceTree = "<group>"; };
-		85A8F6951BC3DF8400713161 /* AppodealContentWallIPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentWallIPadController.m; sourceTree = "<group>"; };
-		85A8F6961BC3DF8400713161 /* AppodealCustomNativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealCustomNativeAdViewController.h; sourceTree = "<group>"; };
-		85A8F6971BC3DF8400713161 /* AppodealCustomNativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealCustomNativeAdViewController.m; sourceTree = "<group>"; };
-		85A8F6981BC3DF8400713161 /* AppodealInitializationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealInitializationViewController.h; sourceTree = "<group>"; };
-		85A8F6991BC3DF8400713161 /* AppodealInitializationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealInitializationViewController.m; sourceTree = "<group>"; };
-		85A8F69A1BC3DF8400713161 /* AppodealNativeAdsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNativeAdsController.h; sourceTree = "<group>"; };
-		85A8F69B1BC3DF8400713161 /* AppodealNativeAdsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNativeAdsController.m; sourceTree = "<group>"; };
-		85A8F69C1BC3DF8400713161 /* AppodealNewsFeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNewsFeedController.h; sourceTree = "<group>"; };
-		85A8F69D1BC3DF8400713161 /* AppodealNewsFeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNewsFeedController.m; sourceTree = "<group>"; };
-		85A8F69E1BC3DF8400713161 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
-		85A8F69F1BC3DF8400713161 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
-		85A8F6A01BC3DF8400713161 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
-		85A8F6A11BC3DF8400713161 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
-		85A8F6A21BC3DF8400713161 /* IPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IPad.storyboard; sourceTree = "<group>"; };
-		85A8F6A31BC3DF8400713161 /* RSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSModel.h; sourceTree = "<group>"; };
-		85A8F6A41BC3DF8400713161 /* RSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSModel.m; sourceTree = "<group>"; };
-		85A8F6A51BC3DF8400713161 /* RSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSParser.h; sourceTree = "<group>"; };
-		85A8F6A61BC3DF8400713161 /* RSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSParser.m; sourceTree = "<group>"; };
 		9A76A4981AE8B1E1004A434D /* iosdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A76A49C1AE8B1E1004A434D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A76A49D1AE8B1E1004A434D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9C410AB01BFDB1A900AE8C28 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C410AB11BFDB1A900AE8C28 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9C410AB21BFDB1A900AE8C28 /* AppodealAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealAdsViewController.h; sourceTree = "<group>"; };
 		9C410AB31BFDB1A900AE8C28 /* AppodealAdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealAdsViewController.m; sourceTree = "<group>"; };
 		9C410AB41BFDB1A900AE8C28 /* AppodealBannersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealBannersViewController.h; sourceTree = "<group>"; };
 		9C410AB51BFDB1A900AE8C28 /* AppodealBannersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealBannersViewController.m; sourceTree = "<group>"; };
-		9C410AB61BFDB1A900AE8C28 /* AppodealContentStreamController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentStreamController.h; sourceTree = "<group>"; };
-		9C410AB71BFDB1A900AE8C28 /* AppodealContentStreamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentStreamController.m; sourceTree = "<group>"; };
-		9C410AB81BFDB1A900AE8C28 /* AppodealContentStreamIPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentStreamIPadController.h; sourceTree = "<group>"; };
-		9C410AB91BFDB1A900AE8C28 /* AppodealContentStreamIPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentStreamIPadController.m; sourceTree = "<group>"; };
-		9C410ABA1BFDB1A900AE8C28 /* AppodealContentWallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentWallController.h; sourceTree = "<group>"; };
-		9C410ABB1BFDB1A900AE8C28 /* AppodealContentWallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentWallController.m; sourceTree = "<group>"; };
-		9C410ABC1BFDB1A900AE8C28 /* AppodealContentWallIPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentWallIPadController.h; sourceTree = "<group>"; };
-		9C410ABD1BFDB1A900AE8C28 /* AppodealContentWallIPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentWallIPadController.m; sourceTree = "<group>"; };
-		9C410ABE1BFDB1A900AE8C28 /* AppodealCustomNativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealCustomNativeAdViewController.h; sourceTree = "<group>"; };
-		9C410ABF1BFDB1A900AE8C28 /* AppodealCustomNativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealCustomNativeAdViewController.m; sourceTree = "<group>"; };
 		9C410AC01BFDB1A900AE8C28 /* AppodealInitializationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealInitializationViewController.h; sourceTree = "<group>"; };
 		9C410AC11BFDB1A900AE8C28 /* AppodealInitializationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealInitializationViewController.m; sourceTree = "<group>"; };
-		9C410AC21BFDB1A900AE8C28 /* AppodealNativeAdsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNativeAdsController.h; sourceTree = "<group>"; };
-		9C410AC31BFDB1A900AE8C28 /* AppodealNativeAdsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNativeAdsController.m; sourceTree = "<group>"; };
-		9C410AC41BFDB1A900AE8C28 /* AppodealNativeBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNativeBannerViewController.h; sourceTree = "<group>"; };
-		9C410AC51BFDB1A900AE8C28 /* AppodealNativeBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNativeBannerViewController.m; sourceTree = "<group>"; };
-		9C410AC61BFDB1A900AE8C28 /* AppodealNewsFeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNewsFeedController.h; sourceTree = "<group>"; };
-		9C410AC71BFDB1A900AE8C28 /* AppodealNewsFeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNewsFeedController.m; sourceTree = "<group>"; };
-		9C410AC81BFDB1A900AE8C28 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
 		9C410AC91BFDB1A900AE8C28 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		9C410ACA1BFDB1A900AE8C28 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		9C410ACB1BFDB1A900AE8C28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9C410ACC1BFDB1A900AE8C28 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C410ACE1BFDB1A900AE8C28 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9C410ACF1BFDB1A900AE8C28 /* RSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSModel.h; sourceTree = "<group>"; };
-		9C410AD01BFDB1A900AE8C28 /* RSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSModel.m; sourceTree = "<group>"; };
 		9C410AD11BFDB1A900AE8C28 /* RSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSParser.h; sourceTree = "<group>"; };
 		9C410AD21BFDB1A900AE8C28 /* RSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSParser.m; sourceTree = "<group>"; };
 		9C410AEB1BFDB4D000AE8C28 /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appodeal.framework; sourceTree = "<group>"; };
@@ -215,6 +200,66 @@
 		9C410B281BFDD8EC00AE8C28 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9C410B291BFDD8EC00AE8C28 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		9C410B2A1BFDD8EC00AE8C28 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		9C5581881C22A8D900618E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/IPhone.storyboard; sourceTree = "<group>"; };
+		9C55818A1C22A8D900618E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9C55818D1C22AA7400618E8F /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appodeal.framework; sourceTree = "<group>"; };
+		9C55818F1C22AA7400618E8F /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
+		9C5581901C22AA7400618E8F /* AdManagerAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdManagerAssets.bundle; sourceTree = "<group>"; };
+		9C5581911C22AA7400618E8F /* appodeal_adbadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_adbadge.png; sourceTree = "<group>"; };
+		9C5581921C22AA7400618E8F /* appodeal_adbadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_adbadge@2x.png"; sourceTree = "<group>"; };
+		9C5581931C22AA7400618E8F /* appodeal_adbadge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_adbadge@3x.png"; sourceTree = "<group>"; };
+		9C5581941C22AA7400618E8F /* appodeal_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_close.png; sourceTree = "<group>"; };
+		9C5581951C22AA7400618E8F /* appodeal_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_pattern.png; sourceTree = "<group>"; };
+		9C5581961C22AA7400618E8F /* appodeal_pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_pattern@2x.png"; sourceTree = "<group>"; };
+		9C5581971C22AA7400618E8F /* MPAdBrowserController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = MPAdBrowserController.nib; sourceTree = "<group>"; };
+		9C5581981C22AA7400618E8F /* MPCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseBtn.png; sourceTree = "<group>"; };
+		9C5581991C22AA7400618E8F /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@2x.png"; sourceTree = "<group>"; };
+		9C55819A1C22AA7400618E8F /* MPCloseBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@3x.png"; sourceTree = "<group>"; };
+		9C55819B1C22AA7400618E8F /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
+		9C55819C1C22AA7400618E8F /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
+		9C55819D1C22AA7400618E8F /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@3x.png"; sourceTree = "<group>"; };
+		9C55819E1C22AA7400618E8F /* MPDAAIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPDAAIcon.png; sourceTree = "<group>"; };
+		9C55819F1C22AA7400618E8F /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@2x.png"; sourceTree = "<group>"; };
+		9C5581A01C22AA7400618E8F /* MPDAAIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@3x.png"; sourceTree = "<group>"; };
+		9C5581A11C22AA7400618E8F /* MPMutedBtn@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@1x.png"; sourceTree = "<group>"; };
+		9C5581A21C22AA7400618E8F /* MPMutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@2x.png"; sourceTree = "<group>"; };
+		9C5581A31C22AA7400618E8F /* MPMutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@3x.png"; sourceTree = "<group>"; };
+		9C5581A41C22AA7400618E8F /* MPPlayBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPPlayBtn.png; sourceTree = "<group>"; };
+		9C5581A51C22AA7400618E8F /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@2x.png"; sourceTree = "<group>"; };
+		9C5581A61C22AA7400618E8F /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@3x.png"; sourceTree = "<group>"; };
+		9C5581A71C22AA7400618E8F /* MPUnmutedBtn@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@1x.png"; sourceTree = "<group>"; };
+		9C5581A81C22AA7400618E8F /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@2x.png"; sourceTree = "<group>"; };
+		9C5581A91C22AA7400618E8F /* MPUnmutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@3x.png"; sourceTree = "<group>"; };
+		9C5581AA1C22AA7400618E8F /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
+		9C5581AB1C22AA7400618E8F /* RFMAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RFMAdSDK.bundle; sourceTree = "<group>"; };
+		9C5581AC1C22AA7400618E8F /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
+		9C5581AD1C22AA7400618E8F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9C5581AE1C22AA7400618E8F /* TOWebViewControllerLocalizable.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TOWebViewControllerLocalizable.bundle; sourceTree = "<group>"; };
+		9C5581AF1C22AA7400618E8F /* UnityAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
+		9C5581B01C22AA7400618E8F /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
+		9C5581B11C22AA7400618E8F /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
+		9C5581B21C22AA7400618E8F /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
+		9C5581B31C22AA7400618E8F /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		9C5581B41C22AA7400618E8F /* vg_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_privacy.png; sourceTree = "<group>"; };
+		9C5581DE1C22ABB200618E8F /* AppodealContentStreamController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentStreamController.h; sourceTree = "<group>"; };
+		9C5581DF1C22ABB200618E8F /* AppodealContentStreamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentStreamController.m; sourceTree = "<group>"; };
+		9C5581E01C22ABB200618E8F /* AppodealContentStreamIPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentStreamIPadController.h; sourceTree = "<group>"; };
+		9C5581E11C22ABB200618E8F /* AppodealContentStreamIPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentStreamIPadController.m; sourceTree = "<group>"; };
+		9C5581E21C22ABB200618E8F /* AppodealContentWallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentWallController.h; sourceTree = "<group>"; };
+		9C5581E31C22ABB200618E8F /* AppodealContentWallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentWallController.m; sourceTree = "<group>"; };
+		9C5581E41C22ABB200618E8F /* AppodealContentWallIPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealContentWallIPadController.h; sourceTree = "<group>"; };
+		9C5581E51C22ABB200618E8F /* AppodealContentWallIPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealContentWallIPadController.m; sourceTree = "<group>"; };
+		9C5581E61C22ABB200618E8F /* AppodealCustomNativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealCustomNativeAdViewController.h; sourceTree = "<group>"; };
+		9C5581E71C22ABB200618E8F /* AppodealCustomNativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealCustomNativeAdViewController.m; sourceTree = "<group>"; };
+		9C5581E81C22ABB200618E8F /* AppodealNativeAdsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNativeAdsController.h; sourceTree = "<group>"; };
+		9C5581E91C22ABB200618E8F /* AppodealNativeAdsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNativeAdsController.m; sourceTree = "<group>"; };
+		9C5581EA1C22ABB200618E8F /* AppodealNativeBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNativeBannerViewController.h; sourceTree = "<group>"; };
+		9C5581EB1C22ABB200618E8F /* AppodealNativeBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNativeBannerViewController.m; sourceTree = "<group>"; };
+		9C5581EC1C22ABB200618E8F /* AppodealNewsFeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNewsFeedController.h; sourceTree = "<group>"; };
+		9C5581ED1C22ABB200618E8F /* AppodealNewsFeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNewsFeedController.m; sourceTree = "<group>"; };
+		9C5581F61C22ABFE00618E8F /* RSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSModel.h; sourceTree = "<group>"; };
+		9C5581F71C22ABFE00618E8F /* RSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSModel.m; sourceTree = "<group>"; };
+		9C5581F91C22ACD800618E8F /* AppodealAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealAdsViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +291,7 @@
 				06133BA21B8330D50074DE7A /* CoreImage.framework in Frameworks */,
 				06133BA01B8330CD0074DE7A /* CoreGraphics.framework in Frameworks */,
 				06133B9E1B8330C40074DE7A /* CoreFoundation.framework in Frameworks */,
+				9C5581B51C22AA7400618E8F /* Appodeal.framework in Frameworks */,
 				9C410AED1BFDB4D000AE8C28 /* Appodeal.framework in Frameworks */,
 				06133B9C1B8330BB0074DE7A /* CFNetwork.framework in Frameworks */,
 				06133B9A1B8330B20074DE7A /* AudioToolbox.framework in Frameworks */,
@@ -259,6 +305,8 @@
 		9A76A48F1AE8B1E1004A434D = {
 			isa = PBXGroup;
 			children = (
+				9C55818D1C22AA7400618E8F /* Appodeal.framework */,
+				9C55818E1C22AA7400618E8F /* Resources */,
 				9A76A4C41AE8E2BE004A434D /* Frameworks */,
 				9A76A49A1AE8B1E1004A434D /* iosdemo */,
 				9A76A4991AE8B1E1004A434D /* Products */,
@@ -280,15 +328,12 @@
 				9C410AE71BFDB1B600AE8C28 /* Native */,
 				9C410AB01BFDB1A900AE8C28 /* AppDelegate.h */,
 				9C410AB11BFDB1A900AE8C28 /* AppDelegate.m */,
+				9C5581F91C22ACD800618E8F /* AppodealAdsViewController.h */,
 				9C410AB31BFDB1A900AE8C28 /* AppodealAdsViewController.m */,
 				9C410AB41BFDB1A900AE8C28 /* AppodealBannersViewController.h */,
 				9C410AB51BFDB1A900AE8C28 /* AppodealBannersViewController.m */,
 				9C410AC01BFDB1A900AE8C28 /* AppodealInitializationViewController.h */,
 				9C410AC11BFDB1A900AE8C28 /* AppodealInitializationViewController.m */,
-				9C410AC81BFDB1A900AE8C28 /* Base.lproj */,
-				9C410ACB1BFDB1A900AE8C28 /* Images.xcassets */,
-				9C410ACC1BFDB1A900AE8C28 /* Info.plist */,
-				9C410ACE1BFDB1A900AE8C28 /* main.m */,
 				9A76A49B1AE8B1E1004A434D /* Supporting Files */,
 			);
 			path = iosdemo;
@@ -297,39 +342,11 @@
 		9A76A49B1AE8B1E1004A434D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				85A8F6881BC3DF8400713161 /* AppDelegate.h */,
-				85A8F6891BC3DF8400713161 /* AppDelegate.m */,
-				85A8F68A1BC3DF8400713161 /* AppodealAdsViewController.h */,
-				85A8F68B1BC3DF8400713161 /* AppodealAdsViewController.m */,
-				85A8F68C1BC3DF8400713161 /* AppodealBannersViewController.h */,
-				85A8F68D1BC3DF8400713161 /* AppodealBannersViewController.m */,
-				85A8F68E1BC3DF8400713161 /* AppodealContentStreamController.h */,
-				85A8F68F1BC3DF8400713161 /* AppodealContentStreamController.m */,
-				85A8F6901BC3DF8400713161 /* AppodealContentStreamIPadController.h */,
-				85A8F6911BC3DF8400713161 /* AppodealContentStreamIPadController.m */,
-				85A8F6921BC3DF8400713161 /* AppodealContentWallController.h */,
-				85A8F6931BC3DF8400713161 /* AppodealContentWallController.m */,
-				85A8F6941BC3DF8400713161 /* AppodealContentWallIPadController.h */,
-				85A8F6951BC3DF8400713161 /* AppodealContentWallIPadController.m */,
-				85A8F6961BC3DF8400713161 /* AppodealCustomNativeAdViewController.h */,
-				85A8F6971BC3DF8400713161 /* AppodealCustomNativeAdViewController.m */,
-				85A8F6981BC3DF8400713161 /* AppodealInitializationViewController.h */,
-				85A8F6991BC3DF8400713161 /* AppodealInitializationViewController.m */,
-				85A8F69A1BC3DF8400713161 /* AppodealNativeAdsController.h */,
-				85A8F69B1BC3DF8400713161 /* AppodealNativeAdsController.m */,
-				85A8F69C1BC3DF8400713161 /* AppodealNewsFeedController.h */,
-				85A8F69D1BC3DF8400713161 /* AppodealNewsFeedController.m */,
-				85A8F69E1BC3DF8400713161 /* Base.lproj */,
-				85A8F69F1BC3DF8400713161 /* iCarousel.h */,
-				85A8F6A01BC3DF8400713161 /* iCarousel.m */,
-				85A8F6A11BC3DF8400713161 /* images.xcassets */,
-				85A8F6A21BC3DF8400713161 /* IPad.storyboard */,
-				85A8F6A31BC3DF8400713161 /* RSSModel.h */,
-				85A8F6A41BC3DF8400713161 /* RSSModel.m */,
-				85A8F6A51BC3DF8400713161 /* RSSParser.h */,
-				85A8F6A61BC3DF8400713161 /* RSSParser.m */,
-				9A76A49C1AE8B1E1004A434D /* Info.plist */,
-				9A76A49D1AE8B1E1004A434D /* main.m */,
+				9C5581871C22A8D900618E8F /* IPhone.storyboard */,
+				9C5581891C22A8D900618E8F /* LaunchScreen.xib */,
+				9C410ACB1BFDB1A900AE8C28 /* Images.xcassets */,
+				9C410ACC1BFDB1A900AE8C28 /* Info.plist */,
+				9C410ACE1BFDB1A900AE8C28 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -373,23 +390,22 @@
 		9C410AE71BFDB1B600AE8C28 /* Native */ = {
 			isa = PBXGroup;
 			children = (
-				9C410AC21BFDB1A900AE8C28 /* AppodealNativeAdsController.h */,
-				9C410AC31BFDB1A900AE8C28 /* AppodealNativeAdsController.m */,
-				9C410AC41BFDB1A900AE8C28 /* AppodealNativeBannerViewController.h */,
-				9C410AC51BFDB1A900AE8C28 /* AppodealNativeBannerViewController.m */,
-				9C410AC61BFDB1A900AE8C28 /* AppodealNewsFeedController.h */,
-				9C410AC71BFDB1A900AE8C28 /* AppodealNewsFeedController.m */,
-				9C410AB61BFDB1A900AE8C28 /* AppodealContentStreamController.h */,
-				9C410AB71BFDB1A900AE8C28 /* AppodealContentStreamController.m */,
-				9C410AB81BFDB1A900AE8C28 /* AppodealContentStreamIPadController.h */,
-				9C410AB91BFDB1A900AE8C28 /* AppodealContentStreamIPadController.m */,
-				9C410ABA1BFDB1A900AE8C28 /* AppodealContentWallController.h */,
-				9C410ABB1BFDB1A900AE8C28 /* AppodealContentWallController.m */,
-				9C410ABC1BFDB1A900AE8C28 /* AppodealContentWallIPadController.h */,
-				9C410ABD1BFDB1A900AE8C28 /* AppodealContentWallIPadController.m */,
-				9C410ABE1BFDB1A900AE8C28 /* AppodealCustomNativeAdViewController.h */,
-				9C410ABF1BFDB1A900AE8C28 /* AppodealCustomNativeAdViewController.m */,
-				9C410AB21BFDB1A900AE8C28 /* AppodealAdsViewController.h */,
+				9C5581DE1C22ABB200618E8F /* AppodealContentStreamController.h */,
+				9C5581DF1C22ABB200618E8F /* AppodealContentStreamController.m */,
+				9C5581E01C22ABB200618E8F /* AppodealContentStreamIPadController.h */,
+				9C5581E11C22ABB200618E8F /* AppodealContentStreamIPadController.m */,
+				9C5581E21C22ABB200618E8F /* AppodealContentWallController.h */,
+				9C5581E31C22ABB200618E8F /* AppodealContentWallController.m */,
+				9C5581E41C22ABB200618E8F /* AppodealContentWallIPadController.h */,
+				9C5581E51C22ABB200618E8F /* AppodealContentWallIPadController.m */,
+				9C5581E61C22ABB200618E8F /* AppodealCustomNativeAdViewController.h */,
+				9C5581E71C22ABB200618E8F /* AppodealCustomNativeAdViewController.m */,
+				9C5581E81C22ABB200618E8F /* AppodealNativeAdsController.h */,
+				9C5581E91C22ABB200618E8F /* AppodealNativeAdsController.m */,
+				9C5581EA1C22ABB200618E8F /* AppodealNativeBannerViewController.h */,
+				9C5581EB1C22ABB200618E8F /* AppodealNativeBannerViewController.m */,
+				9C5581EC1C22ABB200618E8F /* AppodealNewsFeedController.h */,
+				9C5581ED1C22ABB200618E8F /* AppodealNewsFeedController.m */,
 			);
 			name = Native;
 			sourceTree = "<group>";
@@ -402,10 +418,10 @@
 				9C410B111BFDD8DF00AE8C28 /* Masonry */,
 				9C410AC91BFDB1A900AE8C28 /* iCarousel.h */,
 				9C410ACA1BFDB1A900AE8C28 /* iCarousel.m */,
-				9C410ACF1BFDB1A900AE8C28 /* RSSModel.h */,
-				9C410AD01BFDB1A900AE8C28 /* RSSModel.m */,
 				9C410AD11BFDB1A900AE8C28 /* RSSParser.h */,
 				9C410AD21BFDB1A900AE8C28 /* RSSParser.m */,
+				9C5581F61C22ABFE00618E8F /* RSSModel.h */,
+				9C5581F71C22ABFE00618E8F /* RSSModel.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -473,6 +489,51 @@
 			name = Masonry;
 			sourceTree = "<group>";
 		};
+		9C55818E1C22AA7400618E8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C55818F1C22AA7400618E8F /* __vungle.db */,
+				9C5581901C22AA7400618E8F /* AdManagerAssets.bundle */,
+				9C5581911C22AA7400618E8F /* appodeal_adbadge.png */,
+				9C5581921C22AA7400618E8F /* appodeal_adbadge@2x.png */,
+				9C5581931C22AA7400618E8F /* appodeal_adbadge@3x.png */,
+				9C5581941C22AA7400618E8F /* appodeal_close.png */,
+				9C5581951C22AA7400618E8F /* appodeal_pattern.png */,
+				9C5581961C22AA7400618E8F /* appodeal_pattern@2x.png */,
+				9C5581971C22AA7400618E8F /* MPAdBrowserController.nib */,
+				9C5581981C22AA7400618E8F /* MPCloseBtn.png */,
+				9C5581991C22AA7400618E8F /* MPCloseBtn@2x.png */,
+				9C55819A1C22AA7400618E8F /* MPCloseBtn@3x.png */,
+				9C55819B1C22AA7400618E8F /* MPCloseButtonX.png */,
+				9C55819C1C22AA7400618E8F /* MPCloseButtonX@2x.png */,
+				9C55819D1C22AA7400618E8F /* MPCloseButtonX@3x.png */,
+				9C55819E1C22AA7400618E8F /* MPDAAIcon.png */,
+				9C55819F1C22AA7400618E8F /* MPDAAIcon@2x.png */,
+				9C5581A01C22AA7400618E8F /* MPDAAIcon@3x.png */,
+				9C5581A11C22AA7400618E8F /* MPMutedBtn@1x.png */,
+				9C5581A21C22AA7400618E8F /* MPMutedBtn@2x.png */,
+				9C5581A31C22AA7400618E8F /* MPMutedBtn@3x.png */,
+				9C5581A41C22AA7400618E8F /* MPPlayBtn.png */,
+				9C5581A51C22AA7400618E8F /* MPPlayBtn@2x.png */,
+				9C5581A61C22AA7400618E8F /* MPPlayBtn@3x.png */,
+				9C5581A71C22AA7400618E8F /* MPUnmutedBtn@1x.png */,
+				9C5581A81C22AA7400618E8F /* MPUnmutedBtn@2x.png */,
+				9C5581A91C22AA7400618E8F /* MPUnmutedBtn@3x.png */,
+				9C5581AA1C22AA7400618E8F /* MRAID.bundle */,
+				9C5581AB1C22AA7400618E8F /* RFMAdSDK.bundle */,
+				9C5581AC1C22AA7400618E8F /* StartApp.bundle */,
+				9C5581AD1C22AA7400618E8F /* SVProgressHUD.bundle */,
+				9C5581AE1C22AA7400618E8F /* TOWebViewControllerLocalizable.bundle */,
+				9C5581AF1C22AA7400618E8F /* UnityAds.bundle */,
+				9C5581B01C22AA7400618E8F /* vg_close.png */,
+				9C5581B11C22AA7400618E8F /* vg_cta.png */,
+				9C5581B21C22AA7400618E8F /* vg_mute_off.png */,
+				9C5581B31C22AA7400618E8F /* vg_mute_on.png */,
+				9C5581B41C22AA7400618E8F /* vg_privacy.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -531,10 +592,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85A8F6B21BC3DF8400713161 /* Base.lproj in Resources */,
+				9C5581BB1C22AA7400618E8F /* appodeal_close.png in Resources */,
+				9C5581C31C22AA7400618E8F /* MPCloseButtonX@2x.png in Resources */,
+				9C55818B1C22A8D900618E8F /* IPhone.storyboard in Resources */,
+				9C5581D61C22AA7400618E8F /* UnityAds.bundle in Resources */,
+				9C5581D51C22AA7400618E8F /* TOWebViewControllerLocalizable.bundle in Resources */,
+				9C5581D11C22AA7400618E8F /* MRAID.bundle in Resources */,
+				9C5581C01C22AA7400618E8F /* MPCloseBtn@2x.png in Resources */,
+				9C5581B91C22AA7400618E8F /* appodeal_adbadge@2x.png in Resources */,
+				9C5581BD1C22AA7400618E8F /* appodeal_pattern@2x.png in Resources */,
+				9C5581D21C22AA7400618E8F /* RFMAdSDK.bundle in Resources */,
+				9C5581D41C22AA7400618E8F /* SVProgressHUD.bundle in Resources */,
+				9C5581CA1C22AA7400618E8F /* MPMutedBtn@3x.png in Resources */,
+				9C5581D01C22AA7400618E8F /* MPUnmutedBtn@3x.png in Resources */,
+				9C5581CC1C22AA7400618E8F /* MPPlayBtn@2x.png in Resources */,
+				9C5581B71C22AA7400618E8F /* AdManagerAssets.bundle in Resources */,
+				9C5581C11C22AA7400618E8F /* MPCloseBtn@3x.png in Resources */,
+				9C5581B81C22AA7400618E8F /* appodeal_adbadge.png in Resources */,
+				9C5581D31C22AA7400618E8F /* StartApp.bundle in Resources */,
+				9C5581B61C22AA7400618E8F /* __vungle.db in Resources */,
+				9C5581C71C22AA7400618E8F /* MPDAAIcon@3x.png in Resources */,
+				9C5581C41C22AA7400618E8F /* MPCloseButtonX@3x.png in Resources */,
+				9C5581D91C22AA7400618E8F /* vg_mute_off.png in Resources */,
+				9C5581CE1C22AA7400618E8F /* MPUnmutedBtn@1x.png in Resources */,
+				9C5581CD1C22AA7400618E8F /* MPPlayBtn@3x.png in Resources */,
+				9C5581BF1C22AA7400618E8F /* MPCloseBtn.png in Resources */,
+				9C5581D81C22AA7400618E8F /* vg_cta.png in Resources */,
+				9C5581C91C22AA7400618E8F /* MPMutedBtn@2x.png in Resources */,
+				9C5581CF1C22AA7400618E8F /* MPUnmutedBtn@2x.png in Resources */,
 				9C410AE11BFDB1A900AE8C28 /* Images.xcassets in Resources */,
-				85A8F6B41BC3DF8400713161 /* images.xcassets in Resources */,
+				9C5581BA1C22AA7400618E8F /* appodeal_adbadge@3x.png in Resources */,
+				9C5581C61C22AA7400618E8F /* MPDAAIcon@2x.png in Resources */,
+				9C55818C1C22A8D900618E8F /* LaunchScreen.xib in Resources */,
+				9C5581C21C22AA7400618E8F /* MPCloseButtonX.png in Resources */,
+				9C5581D71C22AA7400618E8F /* vg_close.png in Resources */,
+				9C5581C81C22AA7400618E8F /* MPMutedBtn@1x.png in Resources */,
+				9C5581CB1C22AA7400618E8F /* MPPlayBtn.png in Resources */,
 				9C410AEE1BFDB4D000AE8C28 /* Resources in Resources */,
+				9C5581BE1C22AA7400618E8F /* MPAdBrowserController.nib in Resources */,
+				9C5581C51C22AA7400618E8F /* MPDAAIcon.png in Resources */,
+				9C5581DA1C22AA7400618E8F /* vg_mute_on.png in Resources */,
+				9C5581BC1C22AA7400618E8F /* appodeal_pattern.png in Resources */,
+				9C5581DB1C22AA7400618E8F /* vg_privacy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,43 +645,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C410B301BFDD8EC00AE8C28 /* MASViewConstraint.m in Sources */,
+				9C5581F81C22ABFE00618E8F /* RSSModel.m in Sources */,
+				9C5581F11C22ABB200618E8F /* AppodealContentWallIPadController.m in Sources */,
+				9C5581EE1C22ABB200618E8F /* AppodealContentStreamController.m in Sources */,
 				9C410AD51BFDB1A900AE8C28 /* AppodealBannersViewController.m in Sources */,
 				9C410B2F1BFDD8EC00AE8C28 /* MASViewAttribute.m in Sources */,
 				9C410AE61BFDB1A900AE8C28 /* RSSParser.m in Sources */,
 				9C410B021BFDB66500AE8C28 /* MWFeedParser.m in Sources */,
 				9C410AD41BFDB1A900AE8C28 /* AppodealAdsViewController.m in Sources */,
+				9C5581EF1C22ABB200618E8F /* AppodealContentStreamIPadController.m in Sources */,
 				9C410B2B1BFDD8EC00AE8C28 /* MASCompositeConstraint.m in Sources */,
 				9C410B321BFDD8EC00AE8C28 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				85A8F6B61BC3DF8400713161 /* RSSModel.m in Sources */,
 				9C410B341BFDD8EC00AE8C28 /* ViewController+MASAdditions.m in Sources */,
-				85A8F6AD1BC3DF8400713161 /* AppodealContentWallIPadController.m in Sources */,
 				9C410AE41BFDB1A900AE8C28 /* main.m in Sources */,
 				9C410AE01BFDB1A900AE8C28 /* iCarousel.m in Sources */,
-				85A8F6B11BC3DF8400713161 /* AppodealNewsFeedController.m in Sources */,
 				9C410AD31BFDB1A900AE8C28 /* AppDelegate.m in Sources */,
-				85A8F6AA1BC3DF8400713161 /* AppodealContentStreamController.m in Sources */,
 				9C410AFF1BFDB66500AE8C28 /* GTMNSString+HTML.m in Sources */,
 				9C410B311BFDD8EC00AE8C28 /* NSArray+MASAdditions.m in Sources */,
 				9C410B331BFDD8EC00AE8C28 /* View+MASAdditions.m in Sources */,
-				9C410ADC1BFDB1A900AE8C28 /* AppodealNativeAdsController.m in Sources */,
+				9C5581F51C22ABB200618E8F /* AppodealNewsFeedController.m in Sources */,
 				9C410B041BFDB66500AE8C28 /* NSString+HTML.m in Sources */,
 				9C410B031BFDB66500AE8C28 /* NSDate+InternetDateTime.m in Sources */,
-				9C410AD81BFDB1A900AE8C28 /* AppodealContentWallController.m in Sources */,
 				9C410B0E1BFDD87500AE8C28 /* SVIndefiniteAnimatedView.m in Sources */,
+				9C5581F41C22ABB200618E8F /* AppodealNativeBannerViewController.m in Sources */,
 				9C410B2C1BFDD8EC00AE8C28 /* MASConstraint.m in Sources */,
-				85A8F6AE1BC3DF8400713161 /* AppodealCustomNativeAdViewController.m in Sources */,
 				9C410B001BFDB66500AE8C28 /* MWFeedInfo.m in Sources */,
-				9C410ADD1BFDB1A900AE8C28 /* AppodealNativeBannerViewController.m in Sources */,
-				85A8F6AB1BC3DF8400713161 /* AppodealContentStreamIPadController.m in Sources */,
-				85A8F6AF1BC3DF8400713161 /* AppodealInitializationViewController.m in Sources */,
 				9C410B011BFDB66500AE8C28 /* MWFeedItem.m in Sources */,
 				9C410B2D1BFDD8EC00AE8C28 /* MASConstraintMaker.m in Sources */,
 				9C410B2E1BFDD8EC00AE8C28 /* MASLayoutConstraint.m in Sources */,
+				9C5581F01C22ABB200618E8F /* AppodealContentWallController.m in Sources */,
+				9C5581F21C22ABB200618E8F /* AppodealCustomNativeAdViewController.m in Sources */,
 				9C410B101BFDD87500AE8C28 /* SVProgressHUD.m in Sources */,
+				9C5581F31C22ABB200618E8F /* AppodealNativeAdsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C5581871C22A8D900618E8F /* IPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5581881C22A8D900618E8F /* Base */,
+			);
+			name = IPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9C5581891C22A8D900618E8F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C55818A1C22A8D900618E8F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9A76A4B91AE8B1E1004A434D /* Debug */ = {

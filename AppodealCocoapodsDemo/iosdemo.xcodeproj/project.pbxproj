@@ -25,6 +25,7 @@
 		85A8F6871BC3D81500713161 /* AppodealContentWallIPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A8F6861BC3D81500713161 /* AppodealContentWallIPadController.m */; };
 		9A76A49E1AE8B1E1004A434D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76A49D1AE8B1E1004A434D /* main.m */; };
 		9A76A4A11AE8B1E1004A434D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76A4A01AE8B1E1004A434D /* AppDelegate.m */; };
+		9C5581FC1C22BBDD00618E8F /* AppodealMrecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5581FB1C22BBDD00618E8F /* AppodealMrecViewController.m */; };
 		9C756A921BFB578900176E6B /* AppodealNativeBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C756A911BFB578900176E6B /* AppodealNativeBannerViewController.m */; };
 		C41F8A6F83D641FABCF0EE2C /* libPods-iosdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F79559E98E0F1EF60490B43 /* libPods-iosdemo.a */; };
 		CE808C8E1B8600BE007BD629 /* AppodealAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE808C8D1B8600BE007BD629 /* AppodealAdsViewController.m */; };
@@ -69,6 +70,8 @@
 		9A76A4AB1AE8B1E1004A434D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9A76A4B61AE8B1E1004A434D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A76A4B71AE8B1E1004A434D /* iosdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosdemoTests.m; sourceTree = "<group>"; };
+		9C5581FA1C22BBDD00618E8F /* AppodealMrecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealMrecViewController.h; sourceTree = "<group>"; };
+		9C5581FB1C22BBDD00618E8F /* AppodealMrecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealMrecViewController.m; sourceTree = "<group>"; };
 		9C756A901BFB578900176E6B /* AppodealNativeBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNativeBannerViewController.h; sourceTree = "<group>"; };
 		9C756A911BFB578900176E6B /* AppodealNativeBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppodealNativeBannerViewController.m; sourceTree = "<group>"; };
 		A2C086A9F1881DBC6AB79FE1 /* Pods-iosdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosdemo/Pods-iosdemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				11A8A81C1B699A5E00EE376F /* AppodealBannersViewController.m */,
 				CE808C8C1B8600BE007BD629 /* AppodealAdsViewController.h */,
 				CE808C8D1B8600BE007BD629 /* AppodealAdsViewController.m */,
+				9C5581FA1C22BBDD00618E8F /* AppodealMrecViewController.h */,
+				9C5581FB1C22BBDD00618E8F /* AppodealMrecViewController.m */,
 				9A76A4A51AE8B1E1004A434D /* IPhone.storyboard */,
 				85A8F6801BC3B5E500713161 /* IPad.storyboard */,
 				9A76A4AA1AE8B1E1004A434D /* LaunchScreen.xib */,
@@ -240,7 +245,7 @@
 		9A76A4901AE8B1E1004A434D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Appodeal;
 				TargetAttributes = {
 					9A76A4971AE8B1E1004A434D = {
@@ -367,6 +372,7 @@
 				85A8F6701BC28B0E00713161 /* AppodealContentWallController.m in Sources */,
 				85A8F67C1BC2A89C00713161 /* AppodealCustomNativeAdViewController.m in Sources */,
 				11A8A81D1B699A5E00EE376F /* AppodealBannersViewController.m in Sources */,
+				9C5581FC1C22BBDD00618E8F /* AppodealMrecViewController.m in Sources */,
 				85A8F6841BC3B9A500713161 /* AppodealContentStreamIPadController.m in Sources */,
 				9A76A4A11AE8B1E1004A434D /* AppDelegate.m in Sources */,
 				85A8F6761BC2A0C600713161 /* AppodealNativeAdsController.m in Sources */,
@@ -422,6 +428,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;

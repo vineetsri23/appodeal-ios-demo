@@ -32,8 +32,8 @@
                                                         <action selector="autocacheSwitch:" destination="a0U-QM-EmK" eventType="valueChanged" id="oLx-PU-xSg"/>
                                                     </connections>
                                                 </switch>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Interstitial Autocache " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49K-sS-di1">
-                                                    <rect key="frame" x="16" y="11" width="167" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interstitial Autocache " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49K-sS-di1">
+                                                    <rect key="frame" x="16" y="11" width="166" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.93725490199999995" green="0.18039215689999999" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -64,8 +64,8 @@
                                                         <action selector="autocacheSwitch:" destination="a0U-QM-EmK" eventType="valueChanged" id="nh2-28-CuQ"/>
                                                     </connections>
                                                 </switch>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Video Autocache" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2k5-As-PmF">
-                                                    <rect key="frame" x="16" y="11" width="155" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Autocache" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2k5-As-PmF">
+                                                    <rect key="frame" x="16" y="11" width="131" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.93725490199999995" green="0.18039215689999999" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -132,8 +132,8 @@
                                                         <action selector="adTypeSwitchValueChanged:" destination="a0U-QM-EmK" eventType="valueChanged" id="BZa-ac-OEs"/>
                                                     </connections>
                                                 </switch>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Videos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKi-Ee-M2K">
-                                                    <rect key="frame" x="16" y="11" width="52" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Videos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKi-Ee-M2K">
+                                                    <rect key="frame" x="16" y="11" width="53" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.93725490199999995" green="0.18039215689999999" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -164,8 +164,8 @@
                                                         <action selector="adTypeSwitchValueChanged:" destination="a0U-QM-EmK" eventType="valueChanged" id="GDF-rt-FPh"/>
                                                     </connections>
                                                 </switch>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Banners" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvy-Az-7Et">
-                                                    <rect key="frame" x="16" y="11" width="64" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banners" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvy-Az-7Et">
+                                                    <rect key="frame" x="16" y="11" width="63" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.93725490199999995" green="0.18039215689999999" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -196,8 +196,8 @@
                                                         <action selector="adTypeSwitchValueChanged:" destination="a0U-QM-EmK" eventType="valueChanged" id="P0Z-ru-l9x"/>
                                                     </connections>
                                                 </switch>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Native Ads" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ter-1J-0Jy">
-                                                    <rect key="frame" x="16" y="11" width="84" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Native Ads" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ter-1J-0Jy">
+                                                    <rect key="frame" x="16" y="11" width="83" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.93725490199999995" green="0.18039215689999999" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -232,8 +232,8 @@
                                                         <action selector="debugSwitch:" destination="a0U-QM-EmK" eventType="valueChanged" id="vjA-mI-TV3"/>
                                                     </connections>
                                                 </switch>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Debug Mode" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6d-Ga-BJb">
-                                                    <rect key="frame" x="16" y="11" width="100" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Debug Mode" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6d-Ga-BJb">
+                                                    <rect key="frame" x="16" y="11" width="99" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.93725490199999995" green="0.18039215689999999" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>

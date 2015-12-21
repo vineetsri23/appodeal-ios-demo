@@ -55,8 +55,8 @@
         [self configureCellForDisabled:self.showInterstitialCell];
     }
     
-    if (self.adType & AppodealAdTypeVideo) {
-        if ([Appodeal isReadyForShowWithStyle:AppodealShowStyleVideo]) {
+    if (self.adType & AppodealAdTypeSkippableVideo) {
+        if ([Appodeal isReadyForShowWithStyle:AppodealShowStyleSkippableVideo]) {
             [self configureCellForReady:self.showVideoCell];
         } else {
             [self configureCellForNotReady:self.showVideoCell];

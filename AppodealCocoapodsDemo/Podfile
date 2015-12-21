@@ -5,8 +5,10 @@ source 'https://github.com/appodeal/CocoaPods.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'iosdemo' do
-    pod 'Appodeal', '~> 0.6' # for XCODE 7
-    pod 'MWFeedParser', '~> 1.0'
+    
+    pod 'Appodeal', '~> 0.8.1' # for XCODE 7
 #   pod 'Appodeal', '0.4.8' # for XCODE 6.4
+
+    pod 'MWFeedParser', '~> 1.0'
 
 end

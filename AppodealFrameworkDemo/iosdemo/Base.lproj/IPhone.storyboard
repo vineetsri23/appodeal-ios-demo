@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wh0-GA-VjU">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -833,32 +834,6 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Capacity" id="vix-j6-Jyu">
-                                <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="66" id="5me-f3-ljb">
-                                        <rect key="frame" x="0.0" y="421" width="600" height="66"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5me-f3-ljb" id="DSa-f2-dOq">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Pv-0M-e0v">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
-                                                    <animations/>
-                                                </pickerView>
-                                            </subviews>
-                                            <animations/>
-                                            <constraints>
-                                                <constraint firstItem="1Pv-0M-e0v" firstAttribute="leading" secondItem="DSa-f2-dOq" secondAttribute="leading" id="Tas-Rv-wJ8"/>
-                                                <constraint firstItem="1Pv-0M-e0v" firstAttribute="top" secondItem="DSa-f2-dOq" secondAttribute="top" id="d13-Dl-NGh"/>
-                                                <constraint firstAttribute="trailing" secondItem="1Pv-0M-e0v" secondAttribute="trailing" id="dL6-yk-XbY"/>
-                                                <constraint firstAttribute="bottom" secondItem="1Pv-0M-e0v" secondAttribute="bottom" id="qnb-72-hy7"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <animations/>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="Q3C-tx-38P" id="vfg-FU-cXx"/>
@@ -867,7 +842,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Native Ads" id="yse-JA-tUm"/>
                     <connections>
-                        <outlet property="capacityPckerView" destination="1Pv-0M-e0v" id="RJJ-K8-UJV"/>
                         <segue destination="6bV-0N-sOi" kind="show" identifier="NewsFeedSegue" id="SrC-S5-AYc"/>
                         <segue destination="CrO-kP-Gt2" kind="show" identifier="ContentStreamSegue" id="kHR-g2-2Js"/>
                         <segue destination="n4M-vq-WsX" kind="show" identifier="ContentWallSegue" id="h1l-wW-i5t"/>
