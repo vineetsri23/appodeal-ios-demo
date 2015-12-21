@@ -7,44 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C7F17C51C033EEF0068F145 /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F179F1C033EEF0068F145 /* __vungle.db */; };
-		9C7F17C61C033EEF0068F145 /* AdManagerAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17A01C033EEF0068F145 /* AdManagerAssets.bundle */; };
-		9C7F17C71C033EEF0068F145 /* appodeal_adbadge.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17A11C033EEF0068F145 /* appodeal_adbadge.png */; };
-		9C7F17C81C033EEF0068F145 /* appodeal_adbadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17A21C033EEF0068F145 /* appodeal_adbadge@2x.png */; };
-		9C7F17C91C033EEF0068F145 /* appodeal_adbadge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17A31C033EEF0068F145 /* appodeal_adbadge@3x.png */; };
-		9C7F17CA1C033EEF0068F145 /* appodeal_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17A41C033EEF0068F145 /* appodeal_close.png */; };
-		9C7F17CB1C033EEF0068F145 /* appodeal_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17A51C033EEF0068F145 /* appodeal_pattern.png */; };
-		9C7F17CC1C033EEF0068F145 /* appodeal_pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17A61C033EEF0068F145 /* appodeal_pattern@2x.png */; };
-		9C7F17CD1C033EEF0068F145 /* MPAdBrowserController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17A71C033EEF0068F145 /* MPAdBrowserController.nib */; };
-		9C7F17CE1C033EEF0068F145 /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17A81C033EEF0068F145 /* MPCloseBtn.png */; };
-		9C7F17CF1C033EEF0068F145 /* MPCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17A91C033EEF0068F145 /* MPCloseBtn@2x.png */; };
-		9C7F17D01C033EEF0068F145 /* MPCloseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17AA1C033EEF0068F145 /* MPCloseBtn@3x.png */; };
-		9C7F17D11C033EEF0068F145 /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17AB1C033EEF0068F145 /* MPCloseButtonX.png */; };
-		9C7F17D21C033EEF0068F145 /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17AC1C033EEF0068F145 /* MPCloseButtonX@2x.png */; };
-		9C7F17D31C033EEF0068F145 /* MPCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17AD1C033EEF0068F145 /* MPCloseButtonX@3x.png */; };
-		9C7F17D41C033EEF0068F145 /* MPDAAIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17AE1C033EEF0068F145 /* MPDAAIcon.png */; };
-		9C7F17D51C033EEF0068F145 /* MPDAAIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17AF1C033EEF0068F145 /* MPDAAIcon@2x.png */; };
-		9C7F17D61C033EEF0068F145 /* MPDAAIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17B01C033EEF0068F145 /* MPDAAIcon@3x.png */; };
-		9C7F17D71C033EEF0068F145 /* MPMutedBtn@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17B11C033EEF0068F145 /* MPMutedBtn@1x.png */; };
-		9C7F17D81C033EEF0068F145 /* MPMutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17B21C033EEF0068F145 /* MPMutedBtn@2x.png */; };
-		9C7F17D91C033EEF0068F145 /* MPMutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17B31C033EEF0068F145 /* MPMutedBtn@3x.png */; };
-		9C7F17DA1C033EEF0068F145 /* MPPlayBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17B41C033EEF0068F145 /* MPPlayBtn.png */; };
-		9C7F17DB1C033EEF0068F145 /* MPPlayBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17B51C033EEF0068F145 /* MPPlayBtn@2x.png */; };
-		9C7F17DC1C033EEF0068F145 /* MPPlayBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17B61C033EEF0068F145 /* MPPlayBtn@3x.png */; };
-		9C7F17DD1C033EEF0068F145 /* MPUnmutedBtn@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17B71C033EEF0068F145 /* MPUnmutedBtn@1x.png */; };
-		9C7F17DE1C033EEF0068F145 /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17B81C033EEF0068F145 /* MPUnmutedBtn@2x.png */; };
-		9C7F17DF1C033EEF0068F145 /* MPUnmutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17B91C033EEF0068F145 /* MPUnmutedBtn@3x.png */; };
-		9C7F17E01C033EEF0068F145 /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17BA1C033EEF0068F145 /* MRAID.bundle */; };
-		9C7F17E11C033EEF0068F145 /* RFMAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17BB1C033EEF0068F145 /* RFMAdSDK.bundle */; };
-		9C7F17E21C033EEF0068F145 /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17BC1C033EEF0068F145 /* StartApp.bundle */; };
-		9C7F17E31C033EEF0068F145 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17BD1C033EEF0068F145 /* SVProgressHUD.bundle */; };
-		9C7F17E41C033EEF0068F145 /* TOWebViewControllerLocalizable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17BE1C033EEF0068F145 /* TOWebViewControllerLocalizable.bundle */; };
-		9C7F17E51C033EEF0068F145 /* UnityAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17BF1C033EEF0068F145 /* UnityAds.bundle */; };
-		9C7F17E61C033EEF0068F145 /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17C01C033EEF0068F145 /* vg_close.png */; };
-		9C7F17E71C033EEF0068F145 /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17C11C033EEF0068F145 /* vg_cta.png */; };
-		9C7F17E81C033EEF0068F145 /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17C21C033EEF0068F145 /* vg_mute_off.png */; };
-		9C7F17E91C033EEF0068F145 /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17C31C033EEF0068F145 /* vg_mute_on.png */; };
-		9C7F17EA1C033EEF0068F145 /* vg_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17C41C033EEF0068F145 /* vg_privacy.png */; };
+		9C6D3E461C27DD4E008C8DE7 /* MrecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D3E451C27DD4E008C8DE7 /* MrecViewController.swift */; };
 		9C7F17EF1C033F090068F145 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17EB1C033F090068F145 /* LaunchScreen.xib */; };
 		9C7F17F01C033F090068F145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7F17ED1C033F090068F145 /* Main.storyboard */; };
 		9CCD59CE1BFF2E5F0013345F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCD59CD1BFF2E5F0013345F /* CoreGraphics.framework */; };
@@ -59,7 +22,6 @@
 		9CCD59EF1BFF59540013345F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CCD59E71BFF59540013345F /* Images.xcassets */; };
 		9CCD59F11BFF59540013345F /* NativeAdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCD59E91BFF59540013345F /* NativeAdsViewController.swift */; };
 		9CCD59F21BFF59540013345F /* SomeNativeAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCD59EA1BFF59540013345F /* SomeNativeAdViewController.swift */; };
-		9CCD5A1D1C02F1760013345F /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCD5A1B1C02F1760013345F /* Appodeal.framework */; };
 		CE7EF22D1B8B4CD700762405 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7EF22C1B8B4CD700762405 /* AdSupport.framework */; };
 		CE7EF22F1B8B4CDF00762405 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7EF22E1B8B4CDF00762405 /* AVFoundation.framework */; };
 		CE7EF2311B8B4CE700762405 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7EF2301B8B4CE700762405 /* AudioToolbox.framework */; };
@@ -86,44 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C7F179F1C033EEF0068F145 /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = __vungle.db; path = Resources/__vungle.db; sourceTree = SOURCE_ROOT; };
-		9C7F17A01C033EEF0068F145 /* AdManagerAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AdManagerAssets.bundle; path = Resources/AdManagerAssets.bundle; sourceTree = SOURCE_ROOT; };
-		9C7F17A11C033EEF0068F145 /* appodeal_adbadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appodeal_adbadge.png; path = Resources/appodeal_adbadge.png; sourceTree = SOURCE_ROOT; };
-		9C7F17A21C033EEF0068F145 /* appodeal_adbadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appodeal_adbadge@2x.png"; path = "Resources/appodeal_adbadge@2x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17A31C033EEF0068F145 /* appodeal_adbadge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appodeal_adbadge@3x.png"; path = "Resources/appodeal_adbadge@3x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17A41C033EEF0068F145 /* appodeal_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appodeal_close.png; path = Resources/appodeal_close.png; sourceTree = SOURCE_ROOT; };
-		9C7F17A51C033EEF0068F145 /* appodeal_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appodeal_pattern.png; path = Resources/appodeal_pattern.png; sourceTree = SOURCE_ROOT; };
-		9C7F17A61C033EEF0068F145 /* appodeal_pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appodeal_pattern@2x.png"; path = "Resources/appodeal_pattern@2x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17A71C033EEF0068F145 /* MPAdBrowserController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = MPAdBrowserController.nib; path = Resources/MPAdBrowserController.nib; sourceTree = SOURCE_ROOT; };
-		9C7F17A81C033EEF0068F145 /* MPCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MPCloseBtn.png; path = Resources/MPCloseBtn.png; sourceTree = SOURCE_ROOT; };
-		9C7F17A91C033EEF0068F145 /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPCloseBtn@2x.png"; path = "Resources/MPCloseBtn@2x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17AA1C033EEF0068F145 /* MPCloseBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPCloseBtn@3x.png"; path = "Resources/MPCloseBtn@3x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17AB1C033EEF0068F145 /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MPCloseButtonX.png; path = Resources/MPCloseButtonX.png; sourceTree = SOURCE_ROOT; };
-		9C7F17AC1C033EEF0068F145 /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPCloseButtonX@2x.png"; path = "Resources/MPCloseButtonX@2x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17AD1C033EEF0068F145 /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPCloseButtonX@3x.png"; path = "Resources/MPCloseButtonX@3x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17AE1C033EEF0068F145 /* MPDAAIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MPDAAIcon.png; path = Resources/MPDAAIcon.png; sourceTree = SOURCE_ROOT; };
-		9C7F17AF1C033EEF0068F145 /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPDAAIcon@2x.png"; path = "Resources/MPDAAIcon@2x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17B01C033EEF0068F145 /* MPDAAIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPDAAIcon@3x.png"; path = "Resources/MPDAAIcon@3x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17B11C033EEF0068F145 /* MPMutedBtn@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPMutedBtn@1x.png"; path = "Resources/MPMutedBtn@1x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17B21C033EEF0068F145 /* MPMutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPMutedBtn@2x.png"; path = "Resources/MPMutedBtn@2x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17B31C033EEF0068F145 /* MPMutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPMutedBtn@3x.png"; path = "Resources/MPMutedBtn@3x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17B41C033EEF0068F145 /* MPPlayBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MPPlayBtn.png; path = Resources/MPPlayBtn.png; sourceTree = SOURCE_ROOT; };
-		9C7F17B51C033EEF0068F145 /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPPlayBtn@2x.png"; path = "Resources/MPPlayBtn@2x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17B61C033EEF0068F145 /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPPlayBtn@3x.png"; path = "Resources/MPPlayBtn@3x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17B71C033EEF0068F145 /* MPUnmutedBtn@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPUnmutedBtn@1x.png"; path = "Resources/MPUnmutedBtn@1x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17B81C033EEF0068F145 /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPUnmutedBtn@2x.png"; path = "Resources/MPUnmutedBtn@2x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17B91C033EEF0068F145 /* MPUnmutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MPUnmutedBtn@3x.png"; path = "Resources/MPUnmutedBtn@3x.png"; sourceTree = SOURCE_ROOT; };
-		9C7F17BA1C033EEF0068F145 /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MRAID.bundle; path = Resources/MRAID.bundle; sourceTree = SOURCE_ROOT; };
-		9C7F17BB1C033EEF0068F145 /* RFMAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RFMAdSDK.bundle; path = Resources/RFMAdSDK.bundle; sourceTree = SOURCE_ROOT; };
-		9C7F17BC1C033EEF0068F145 /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = StartApp.bundle; path = Resources/StartApp.bundle; sourceTree = SOURCE_ROOT; };
-		9C7F17BD1C033EEF0068F145 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = Resources/SVProgressHUD.bundle; sourceTree = SOURCE_ROOT; };
-		9C7F17BE1C033EEF0068F145 /* TOWebViewControllerLocalizable.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TOWebViewControllerLocalizable.bundle; path = Resources/TOWebViewControllerLocalizable.bundle; sourceTree = SOURCE_ROOT; };
-		9C7F17BF1C033EEF0068F145 /* UnityAds.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = UnityAds.bundle; path = Resources/UnityAds.bundle; sourceTree = SOURCE_ROOT; };
-		9C7F17C01C033EEF0068F145 /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vg_close.png; path = Resources/vg_close.png; sourceTree = SOURCE_ROOT; };
-		9C7F17C11C033EEF0068F145 /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vg_cta.png; path = Resources/vg_cta.png; sourceTree = SOURCE_ROOT; };
-		9C7F17C21C033EEF0068F145 /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vg_mute_off.png; path = Resources/vg_mute_off.png; sourceTree = SOURCE_ROOT; };
-		9C7F17C31C033EEF0068F145 /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vg_mute_on.png; path = Resources/vg_mute_on.png; sourceTree = SOURCE_ROOT; };
-		9C7F17C41C033EEF0068F145 /* vg_privacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vg_privacy.png; path = Resources/vg_privacy.png; sourceTree = SOURCE_ROOT; };
+		9C6D3E451C27DD4E008C8DE7 /* MrecViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MrecViewController.swift; path = SwiftAppodealFramework/MrecViewController.swift; sourceTree = SOURCE_ROOT; };
 		9C7F17EC1C033F090068F145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = SwiftAppodealFramework/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
 		9C7F17EE1C033F090068F145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SwiftAppodealFramework/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		9CCD59CD1BFF2E5F0013345F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -139,7 +64,6 @@
 		9CCD59E81BFF59540013345F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftAppodealFramework/Info.plist; sourceTree = SOURCE_ROOT; };
 		9CCD59E91BFF59540013345F /* NativeAdsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NativeAdsViewController.swift; path = SwiftAppodealFramework/NativeAdsViewController.swift; sourceTree = SOURCE_ROOT; };
 		9CCD59EA1BFF59540013345F /* SomeNativeAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SomeNativeAdViewController.swift; path = SwiftAppodealFramework/SomeNativeAdViewController.swift; sourceTree = SOURCE_ROOT; };
-		9CCD5A1B1C02F1760013345F /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appodeal.framework; sourceTree = SOURCE_ROOT; };
 		CE7EF1F81B8B4C1800762405 /* SwiftApodealFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApodealFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7EF22C1B8B4CD700762405 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		CE7EF22E1B8B4CDF00762405 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -187,7 +111,6 @@
 				CE7EF24F1B8B4D7600762405 /* Social.framework in Frameworks */,
 				CE7EF24D1B8B4D6C00762405 /* libz.dylib in Frameworks */,
 				CE7EF24B1B8B4D5D00762405 /* CoreFoundation.framework in Frameworks */,
-				9CCD5A1D1C02F1760013345F /* Appodeal.framework in Frameworks */,
 				CE7EF2491B8B4D5500762405 /* CoreImage.framework in Frameworks */,
 				CE7EF2471B8B4D4C00762405 /* QuartzCore.framework in Frameworks */,
 				CE7EF2431B8B4D3C00762405 /* CoreMedia.framework in Frameworks */,
@@ -207,56 +130,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9C7F179E1C033EDE0068F145 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9C7F179F1C033EEF0068F145 /* __vungle.db */,
-				9C7F17A01C033EEF0068F145 /* AdManagerAssets.bundle */,
-				9C7F17A11C033EEF0068F145 /* appodeal_adbadge.png */,
-				9C7F17A21C033EEF0068F145 /* appodeal_adbadge@2x.png */,
-				9C7F17A31C033EEF0068F145 /* appodeal_adbadge@3x.png */,
-				9C7F17A41C033EEF0068F145 /* appodeal_close.png */,
-				9C7F17A51C033EEF0068F145 /* appodeal_pattern.png */,
-				9C7F17A61C033EEF0068F145 /* appodeal_pattern@2x.png */,
-				9C7F17A71C033EEF0068F145 /* MPAdBrowserController.nib */,
-				9C7F17A81C033EEF0068F145 /* MPCloseBtn.png */,
-				9C7F17A91C033EEF0068F145 /* MPCloseBtn@2x.png */,
-				9C7F17AA1C033EEF0068F145 /* MPCloseBtn@3x.png */,
-				9C7F17AB1C033EEF0068F145 /* MPCloseButtonX.png */,
-				9C7F17AC1C033EEF0068F145 /* MPCloseButtonX@2x.png */,
-				9C7F17AD1C033EEF0068F145 /* MPCloseButtonX@3x.png */,
-				9C7F17AE1C033EEF0068F145 /* MPDAAIcon.png */,
-				9C7F17AF1C033EEF0068F145 /* MPDAAIcon@2x.png */,
-				9C7F17B01C033EEF0068F145 /* MPDAAIcon@3x.png */,
-				9C7F17B11C033EEF0068F145 /* MPMutedBtn@1x.png */,
-				9C7F17B21C033EEF0068F145 /* MPMutedBtn@2x.png */,
-				9C7F17B31C033EEF0068F145 /* MPMutedBtn@3x.png */,
-				9C7F17B41C033EEF0068F145 /* MPPlayBtn.png */,
-				9C7F17B51C033EEF0068F145 /* MPPlayBtn@2x.png */,
-				9C7F17B61C033EEF0068F145 /* MPPlayBtn@3x.png */,
-				9C7F17B71C033EEF0068F145 /* MPUnmutedBtn@1x.png */,
-				9C7F17B81C033EEF0068F145 /* MPUnmutedBtn@2x.png */,
-				9C7F17B91C033EEF0068F145 /* MPUnmutedBtn@3x.png */,
-				9C7F17BA1C033EEF0068F145 /* MRAID.bundle */,
-				9C7F17BB1C033EEF0068F145 /* RFMAdSDK.bundle */,
-				9C7F17BC1C033EEF0068F145 /* StartApp.bundle */,
-				9C7F17BD1C033EEF0068F145 /* SVProgressHUD.bundle */,
-				9C7F17BE1C033EEF0068F145 /* TOWebViewControllerLocalizable.bundle */,
-				9C7F17BF1C033EEF0068F145 /* UnityAds.bundle */,
-				9C7F17C01C033EEF0068F145 /* vg_close.png */,
-				9C7F17C11C033EEF0068F145 /* vg_cta.png */,
-				9C7F17C21C033EEF0068F145 /* vg_mute_off.png */,
-				9C7F17C31C033EEF0068F145 /* vg_mute_on.png */,
-				9C7F17C41C033EEF0068F145 /* vg_privacy.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		9CCD59D91BFF2FC90013345F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9CCD5A1B1C02F1760013345F /* Appodeal.framework */,
-				9C7F179E1C033EDE0068F145 /* Resources */,
 				9CCD59D71BFF2EF00013345F /* Twitter.framework */,
 				9CCD59D51BFF2ED70013345F /* Security.framework */,
 				9CCD59D31BFF2EC10013345F /* MobileCoreServices.framework */,
@@ -320,6 +196,7 @@
 				9CCD59E81BFF59540013345F /* Info.plist */,
 				9CCD59E91BFF59540013345F /* NativeAdsViewController.swift */,
 				9CCD59EA1BFF59540013345F /* SomeNativeAdViewController.swift */,
+				9C6D3E451C27DD4E008C8DE7 /* MrecViewController.swift */,
 			);
 			name = SwiftAppodealFramework;
 			path = "Swift Appodeal Framework";
@@ -383,47 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C7F17E51C033EEF0068F145 /* UnityAds.bundle in Resources */,
-				9C7F17D61C033EEF0068F145 /* MPDAAIcon@3x.png in Resources */,
-				9C7F17CF1C033EEF0068F145 /* MPCloseBtn@2x.png in Resources */,
-				9C7F17E11C033EEF0068F145 /* RFMAdSDK.bundle in Resources */,
-				9C7F17EA1C033EEF0068F145 /* vg_privacy.png in Resources */,
 				9CCD59EF1BFF59540013345F /* Images.xcassets in Resources */,
-				9C7F17D01C033EEF0068F145 /* MPCloseBtn@3x.png in Resources */,
-				9C7F17E71C033EEF0068F145 /* vg_cta.png in Resources */,
-				9C7F17D31C033EEF0068F145 /* MPCloseButtonX@3x.png in Resources */,
-				9C7F17DD1C033EEF0068F145 /* MPUnmutedBtn@1x.png in Resources */,
-				9C7F17D51C033EEF0068F145 /* MPDAAIcon@2x.png in Resources */,
-				9C7F17D81C033EEF0068F145 /* MPMutedBtn@2x.png in Resources */,
-				9C7F17DE1C033EEF0068F145 /* MPUnmutedBtn@2x.png in Resources */,
-				9C7F17E21C033EEF0068F145 /* StartApp.bundle in Resources */,
-				9C7F17DF1C033EEF0068F145 /* MPUnmutedBtn@3x.png in Resources */,
-				9C7F17CC1C033EEF0068F145 /* appodeal_pattern@2x.png in Resources */,
-				9C7F17CB1C033EEF0068F145 /* appodeal_pattern.png in Resources */,
-				9C7F17D21C033EEF0068F145 /* MPCloseButtonX@2x.png in Resources */,
-				9C7F17C91C033EEF0068F145 /* appodeal_adbadge@3x.png in Resources */,
-				9C7F17C81C033EEF0068F145 /* appodeal_adbadge@2x.png in Resources */,
-				9C7F17CE1C033EEF0068F145 /* MPCloseBtn.png in Resources */,
 				9C7F17F01C033F090068F145 /* Main.storyboard in Resources */,
-				9C7F17E31C033EEF0068F145 /* SVProgressHUD.bundle in Resources */,
-				9C7F17E01C033EEF0068F145 /* MRAID.bundle in Resources */,
-				9C7F17C71C033EEF0068F145 /* appodeal_adbadge.png in Resources */,
-				9C7F17D91C033EEF0068F145 /* MPMutedBtn@3x.png in Resources */,
-				9C7F17DB1C033EEF0068F145 /* MPPlayBtn@2x.png in Resources */,
-				9C7F17D41C033EEF0068F145 /* MPDAAIcon.png in Resources */,
-				9C7F17E81C033EEF0068F145 /* vg_mute_off.png in Resources */,
 				9C7F17EF1C033F090068F145 /* LaunchScreen.xib in Resources */,
-				9C7F17D71C033EEF0068F145 /* MPMutedBtn@1x.png in Resources */,
-				9C7F17C61C033EEF0068F145 /* AdManagerAssets.bundle in Resources */,
-				9C7F17CA1C033EEF0068F145 /* appodeal_close.png in Resources */,
-				9C7F17D11C033EEF0068F145 /* MPCloseButtonX.png in Resources */,
-				9C7F17C51C033EEF0068F145 /* __vungle.db in Resources */,
-				9C7F17DA1C033EEF0068F145 /* MPPlayBtn.png in Resources */,
-				9C7F17E41C033EEF0068F145 /* TOWebViewControllerLocalizable.bundle in Resources */,
-				9C7F17DC1C033EEF0068F145 /* MPPlayBtn@3x.png in Resources */,
-				9C7F17E91C033EEF0068F145 /* vg_mute_on.png in Resources */,
-				9C7F17E61C033EEF0068F145 /* vg_close.png in Resources */,
-				9C7F17CD1C033EEF0068F145 /* MPAdBrowserController.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +276,7 @@
 				9CCD59ED1BFF59540013345F /* BannerTableView.swift in Sources */,
 				9CCD59EC1BFF59540013345F /* AppodealHubViewController.swift in Sources */,
 				9CCD59F11BFF59540013345F /* NativeAdsViewController.swift in Sources */,
+				9C6D3E461C27DD4E008C8DE7 /* MrecViewController.swift in Sources */,
 				9CCD59F21BFF59540013345F /* SomeNativeAdViewController.swift in Sources */,
 				9CCD59EB1BFF59540013345F /* AppDelegate.swift in Sources */,
 			);

@@ -37,10 +37,7 @@ class NativeAdsViewController : UITableViewController, AppodealNativeAdServiceDe
             default: break
         }
         
-        var capacity : UInt!
-        capacity = severalAdsLoadSwitch.on ? 10 : 1
-        
-        nativeAdService = AppodealNativeAdService.init(capacity: capacity);
+        nativeAdService = AppodealNativeAdService.init();
         nativeAdService.delegate = self;
         nativeAdService.loadAd()
         self.showLoadingView(true)

@@ -47,22 +47,14 @@ class SomeNativeAdViewController : UITableViewController {
     func attributes() -> AppodealNativeAdViewAttributes{
         let attributes = AppodealNativeAdViewAttributes()
         if (nativeAdViewType == AppodealNativeAdViewType.TypeNewsFeed) {
-            attributes.iconHeigtht = 50;
-            attributes.iconWidth = 50;
-            attributes.width = self.view.frame.size.width;
-            attributes.heigth = 80;
             attributes.roundedIcon = false;
             attributes.sponsored = true;
-            attributes.starRatingColor = UIColor.orangeColor()
         }
         if (nativeAdViewType == AppodealNativeAdViewType.TypeContentStream){
-            attributes.iconHeigtht = 50;
-            attributes.iconWidth = 50;
             attributes.width = self.view.frame.size.width;
             attributes.heigth = self.view.frame.size.width;
             attributes.roundedIcon = false;
             attributes.sponsored = true;
-            attributes.starRatingColor = UIColor.orangeColor()
         }
         if (nativeAdViewType == AppodealNativeAdViewType.TypeContentWall){
             attributes.heigth = 200
@@ -71,14 +63,6 @@ class SomeNativeAdViewController : UITableViewController {
         }
         if (nativeAdViewType == AppodealNativeAdViewType.Type320x50){
             attributes.heigth = 50
-            attributes.width = self.view.frame.size.width
-            attributes.buttonColor = UIColor.greenColor()
-            attributes.buttonTitleFont = UIFont.systemFontOfSize(12)
-            attributes.descriptionFontColor = UIColor.darkGrayColor()
-            attributes.descriptionFont = UIFont.systemFontOfSize(12)
-            attributes.titleFont = UIFont.systemFontOfSize(14)
-            attributes.titleFontColor = UIColor.blackColor()
-            attributes.starRatingColor = UIColor.orangeColor()
         }
         return attributes
     }
