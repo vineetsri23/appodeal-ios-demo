@@ -527,6 +527,33 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection headerTitle="" id="BiW-BO-tdi">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="eB3-jq-iUH" style="IBUITableViewCellStyleDefault" id="7dX-SE-vGb">
+                                        <rect key="frame" x="0.0" y="483" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7dX-SE-vGb" id="yLh-bA-fNR">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="MREC" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eB3-jq-iUH">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="QhN-sZ-ucS" kind="show" id="ndx-Hq-F8o"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="IpI-mJ-AC9" id="VbP-Dl-Shk"/>
@@ -544,7 +571,27 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IDQ-mQ-MdD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1892" y="-82"/>
+            <point key="canvasLocation" x="1896" y="-82"/>
+        </scene>
+        <!--MREC-->
+        <scene sceneID="SOe-ww-FdV">
+            <objects>
+                <viewController id="QhN-sZ-ucS" customClass="AppodealMrecViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RhD-2J-l1X"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qvw-JL-6mX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sNV-1C-WXG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MREC" id="Cjl-xg-0UA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iIS-Aq-UwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2578" y="-767"/>
         </scene>
         <!--Appodeal Banners View Controller-->
         <scene sceneID="pdP-yO-Kzc">
