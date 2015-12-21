@@ -1,5 +1,5 @@
 # Appodeal iOS SDK   
-![](https://img.shields.io/badge/version-v0.7.0-brightgreen.svg) [![](https://img.shields.io/badge/download-here-red.svg)](https://s3-us-west-1.amazonaws.com/appodeal-ios/0.7.0/Appodeal.zip) [![](https://img.shields.io/badge/integration-manual-blue.svg)](https://github.com/appodeal/appodeal-ios-demo/wiki) 
+![](https://img.shields.io/badge/version-v0.8.1-brightgreen.svg) [![](https://img.shields.io/badge/download-here-red.svg)](https://s3-us-west-1.amazonaws.com/appodeal-ios/0.7.0/Appodeal.zip) [![](https://img.shields.io/badge/integration-manual-blue.svg)](https://github.com/appodeal/appodeal-ios-demo/wiki) 
 
 Thanks for taking a look at Appodeal! We take pride in having an easy-to-use, flexible monetization solution that works across multiple platforms.
 
@@ -45,7 +45,7 @@ pod update
 1.Clone project  
 2.Go to **Appodeal framework** folder   
 3.Download SDK   
-3.1Download the [latest iOS SDK version](https://s3-us-west-1.amazonaws.com/appodeal-ios/0.7.0/Appodeal.zip) and extract Appodeal iOS SDK.   
+3.1Download the [latest iOS SDK version](https://s3-us-west-1.amazonaws.com/appodeal-ios/0.8.1/Appodeal.zip) and extract Appodeal iOS SDK.   
 4.Open Demo project in Xcode, then drag and drop **Appodeal.framework** and **Resources** folder onto your project or workspace (use the "Product Navigator view") and choose *"Copy items into destination group's folder and click Finish"*.     
 
 ![](http://dl.dropbox.com/s/8z80aridd4gqxub/Screen%20Shot%202015-04-23%20at%204.30.58%20PM.png)
@@ -64,9 +64,9 @@ pod update
 
 The Appodeal SDK is distributed as static library.
 
-- **[Appodeal SDK.zip](https://s3-us-west-1.amazonaws.com/appodeal-ios/0.7.0/Appodeal.zip)**
+- **[Appodeal SDK.zip](https://s3-us-west-1.amazonaws.com/appodeal-ios/0.8.1/Appodeal.zip)**
 
-The current version of the SDK is 0.7.0    
+The current version of the SDK is 0.8.1    
 
 ## Integrate
 
@@ -75,6 +75,17 @@ Integration instructions are available on the [wiki](https://github.com/appodeal
 ## Requirements
 
 iOS 7.1 and up
+
+0.7.0 Change Log:   
+----------------------------------
+* added MREC (300*250 banners) - Admob, Amazpn, Inmobi, InnerActive, Yandex, Mopub, liveRails   
+* native ads callbacks (nativeAdDidClick, nativeAdDidPresent)   
+* imrovement of VAST Video integration   
+* added OpenX Interstitials and Banners (320*50)   
+* small bug fixes in Banners and Native ads   
+* imrovement Native Ads templates   
+* added Mopub Rewarded video   
+
 
 0.7.0 Change Log:   
 ----------------------------------
