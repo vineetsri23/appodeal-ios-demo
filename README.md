@@ -76,7 +76,7 @@ Integration instructions are available on the [wiki](https://github.com/appodeal
 
 iOS 7.1 and up
 
-0.7.0 Change Log:   
+0.8.1 Change Log:   
 ----------------------------------
 * added MREC (300*250 banners) - Admob, Amazpn, Inmobi, InnerActive, Yandex, Mopub, liveRails   
 * native ads callbacks (nativeAdDidClick, nativeAdDidPresent)   
