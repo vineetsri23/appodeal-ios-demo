@@ -1,4 +1,6 @@
 # Appodeal iOS SDK   
+# Appodeal iOS SDK   
+
 ![](https://img.shields.io/badge/version-v0.8.1-brightgreen.svg) [![](https://img.shields.io/badge/download-here-red.svg)](https://s3-us-west-1.amazonaws.com/appodeal-ios/0.8.1/Appodeal.zip) [![](https://img.shields.io/badge/integration-manual-blue.svg)](https://github.com/appodeal/appodeal-ios-demo/wiki) 
 
 Thanks for taking a look at Appodeal! We take pride in having an easy-to-use, flexible monetization solution that works across multiple platforms.
